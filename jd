@@ -5,643 +5,411 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 香港绿头外网集团Public_445, server: cs.cu.01.211129.xyz, port: 21062, type: trojan, password: 8bf705db-4d35-44ec-8d08-33b734ea4e1f, sni: cs.cu.01.211129.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港绿头外网集团Public_412, server: hdcn2.88abc88.xyz, port: 23045, type: vmess, uuid: a8d27fa4-f4d5-4d9d-854d-f2cb111b7a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港绿头外网集团Public_414, server: hdcn2.88abc88.xyz, port: 23010, type: vmess, uuid: a8d27fa4-f4d5-4d9d-854d-f2cb111b7a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港绿头外网集团Public_415, server: hdcn1.88abc88.xyz, port: 23011, type: vmess, uuid: a8d27fa4-f4d5-4d9d-854d-f2cb111b7a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港绿头外网集团Public_411, server: hdcn1.88abc88.xyz, port: 23044, type: vmess, uuid: a8d27fa4-f4d5-4d9d-854d-f2cb111b7a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 印度绿头外网集团Public_449, server: hdcn3.88abc88.xyz, port: 23022, type: vmess, uuid: a8d27fa4-f4d5-4d9d-854d-f2cb111b7a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本绿头外网集团Public_476, server: hzcu.rymv2rayssl.xyz, port: 44637, type: trojan, password: 8bf705db-4d35-44ec-8d08-33b734ea4e1f, sni: hzcu.rymv2rayssl.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港绿头外网集团Public_433, server: 93.179.125.232, port: 45387, type: ss, cipher: aes-256-gcm, password: 1wvu9ILlDB, udp: true}
-  - {name: 台湾绿头外网集团Public_530, server: hdcn3.88abc88.xyz, port: 23032, type: vmess, uuid: a8d27fa4-f4d5-4d9d-854d-f2cb111b7a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国绿头外网集团Public_691, server: hdcn3.88abc88.xyz, port: 23020, type: vmess, uuid: a8d27fa4-f4d5-4d9d-854d-f2cb111b7a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港绿头外网集团Public_413, server: hdcn2.88abc88.xyz, port: 23053, type: vmess, uuid: a8d27fa4-f4d5-4d9d-854d-f2cb111b7a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国绿头外网集团Public_690, server: hdcn1.88abc88.xyz, port: 23019, type: vmess, uuid: a8d27fa4-f4d5-4d9d-854d-f2cb111b7a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国绿头外网集团Public_693, server: hdcn4.88abc88.xyz, port: 23001, type: vmess, uuid: a8d27fa4-f4d5-4d9d-854d-f2cb111b7a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国绿头外网集团Public_692, server: hdcn2.88abc88.xyz, port: 23078, type: vmess, uuid: a8d27fa4-f4d5-4d9d-854d-f2cb111b7a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 台湾绿头外网集团Public_534, server: ah.cm.01.211129.xyz, port: 25800, type: trojan, password: 8bf705db-4d35-44ec-8d08-33b734ea4e1f, sni: ah.cm.01.211129.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国绿头外网集团Public_689, server: hdcn3.88abc88.xyz, port: 23030, type: vmess, uuid: a8d27fa4-f4d5-4d9d-854d-f2cb111b7a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 台湾绿头外网集团Public_533, server: cs.cu.01.211129.xyz, port: 48377, type: trojan, password: 8bf705db-4d35-44ec-8d08-33b734ea4e1f, sni: cs.cu.01.211129.xyz, skip-cert-verify: true, udp: true}
-  - {name: 俄罗斯绿头外网集团Public_506, server: hdcn1.88abc88.xyz, port: 23002, type: vmess, uuid: a8d27fa4-f4d5-4d9d-854d-f2cb111b7a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港绿头外网集团Public_441, server: 156.251.189.106, port: 36445, type: vmess, uuid: f3d89fc1-eca6-4dac-bcb6-e609b28dbd5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国绿头外网集团Public_670, server: 38.75.136.49, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 香港绿头外网集团Public_382, server: 112.64.69.187, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡绿头外网集团Public_521, server: gzcm.rymv2rayssl.xyz, port: 44606, type: trojan, password: 8bf705db-4d35-44ec-8d08-33b734ea4e1f, sni: gzcm.rymv2rayssl.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国绿头外网集团Public_830, server: 167.88.61.15, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 香港绿头外网集团Public_422, server: shcu01a.iplc188.com, port: 10003, type: vmess, uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国_阿伟科技-油管, server: 38.143.66.187, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 俄罗斯绿头外网集团Public_508, server: hdcn3.88abc88.xyz, port: 23004, type: vmess, uuid: a8d27fa4-f4d5-4d9d-854d-f2cb111b7a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国_阿伟科技-油管 2, server: 38.68.135.18, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 俄罗斯绿头外网集团Public_509, server: hdcn4.88abc88.xyz, port: 23007, type: vmess, uuid: a8d27fa4-f4d5-4d9d-854d-f2cb111b7a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 俄罗斯绿头外网集团Public_507, server: hdcn2.88abc88.xyz, port: 23003, type: vmess, uuid: a8d27fa4-f4d5-4d9d-854d-f2cb111b7a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国绿头外网集团Public_732, server: 167.88.61.15, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国绿头外网集团Public_758, server: 38.114.114.49, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 美国绿头外网集团Public_820, server: 38.114.114.77, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 加拿大绿头外网集团Public_250, server: 134.195.196.193, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 英国绿头外网集团Public_355, server: 212.38.189.174, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 美国绿头外网集团Public_809, server: 167.88.61.15, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 加拿大绿头外网集团Public_142, server: 198.57.27.241, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国绿头外网集团Public_814, server: 167.88.61.15, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 美国_阿伟科技-油管 3, server: 38.143.66.55, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 加拿大绿头外网集团Public_160, server: 134.195.196.128, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 加拿大绿头外网集团Public_141, server: 198.57.27.241, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 日本绿头外网集团Public_459, server: cn-cslt.88abc88.xyz, port: 23040, type: vmess, uuid: a8d27fa4-f4d5-4d9d-854d-f2cb111b7a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国_阿伟科技-油管 4, server: 38.143.66.55, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 美国绿头外网集团Public_671, server: 38.75.136.49, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 加拿大绿头外网集团Public_236, server: 134.195.196.193, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 加拿大绿头外网集团Public_13, server: 134.195.196.128, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国绿头外网集团Public_800, server: 38.121.43.3, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 美国_阿伟科技-油管 5, server: 38.143.66.55, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 美国_阿伟科技-油管 6, server: 38.143.66.55, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 英国绿头外网集团Public_342, server: 172.99.190.39, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 日本绿头外网集团Public_469, server: 85.208.108.106, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 香港绿头外网集团Public_443, server: gzcm.rymv2rayssl.xyz, port: 44649, type: trojan, password: 8bf705db-4d35-44ec-8d08-33b734ea4e1f, sni: gzcm.rymv2rayssl.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本绿头外网集团Public_472, server: 106.180.225.69, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: true, udp: true}
-  - {name: 美国绿头外网集团Public_675, server: 38.86.135.169, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 美国绿头外网集团Public_765, server: 38.114.114.49, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 美国绿头外网集团Public_797, server: 167.88.63.28, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 英国绿头外网集团Public_349, server: 172.99.190.39, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 德国绿头外网集团Public_281, server: 145.239.1.100, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 加拿大绿头外网集团Public_131, server: 198.57.27.188, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 美国绿头外网集团Public_795, server: 167.88.61.15, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 加拿大绿头外网集团Public_29, server: 134.195.196.193, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 德国绿头外网集团Public_296, server: 193.108.118.36, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国绿头外网集团Public_627, server: 38.68.134.37, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 加拿大绿头外网集团Public_129, server: 198.57.27.188, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 德国绿头外网集团Public_298, server: 193.108.118.36, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 美国_阿伟科技-油管 7, server: 38.143.66.55, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 日本绿头外网集团Public_461, server: cn-cslt.88abc88.xyz, port: 23005, type: vmess, uuid: a8d27fa4-f4d5-4d9d-854d-f2cb111b7a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国绿头外网集团Public_718, server: 167.88.62.34, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 美国绿头外网集团Public_555, server: 169.197.142.99, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 加拿大绿头外网集团Public_245, server: 134.195.196.193, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 加拿大绿头外网集团Public_20, server: 134.195.196.128, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 美国绿头外网集团Public_607, server: 38.121.43.91, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 美国绿头外网集团Public_747, server: 167.88.63.28, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 美国绿头外网集团Public_634, server: 38.68.135.138, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 美国绿头外网集团Public_659, server: 38.75.136.45, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 美国绿头外网集团Public_858, server: 38.75.136.49, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 美国绿头外网集团Public_579, server: 38.107.226.238, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 美国绿头外网集团Public_728, server: 38.121.43.204, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 美国绿头外网集团Public_784, server: 38.114.114.77, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 加拿大绿头外网集团Public_271, server: 134.195.196.81, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 美国绿头外网集团Public_672, server: 38.75.136.49, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 【426节点池】US_1433, server: 142.202.48.34, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 美国绿头外网集团Public_836, server: 167.88.61.15, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 美国_阿伟科技-油管 8, server: 38.68.135.18, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 加拿大绿头外网集团Public_228, server: 134.195.196.193, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 美国_阿伟科技-油管 9, server: 38.143.66.55, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 加拿大绿头外网集团Public_16, server: 134.195.196.128, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 美国绿头外网集团Public_819, server: 167.88.63.28, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 英国绿头外网集团Public_350, server: 172.99.190.39, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 英国绿头外网集团Public_358, server: 212.38.189.174, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 美国绿头外网集团Public_608, server: 38.121.43.91, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 美国绿头外网集团Public_807, server: 38.121.43.204, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 【426节点池】US_1500, server: 38.107.226.48, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 美国绿头外网集团Public_730, server: 38.121.43.204, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 美国绿头外网集团Public_721, server: 38.68.134.191, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 美国绿头外网集团Public_731, server: 38.121.43.3, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 美国绿头外网集团Public_799, server: 38.114.114.77, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 美国绿头外网集团Public_860, server: 38.75.136.49, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 美国_阿伟科技-油管 10, server: 38.91.100.200, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 加拿大绿头外网集团Public_103, server: 198.57.27.152, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 新加坡绿头外网集团Public_520, server: gzcm.rymv2rayssl.xyz, port: 44605, type: trojan, password: 8bf705db-4d35-44ec-8d08-33b734ea4e1f, sni: gzcm.rymv2rayssl.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国_阿伟科技-油管 11, server: 169.197.143.219, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 德国绿头外网集团Public_295, server: 193.108.118.36, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国 102, server: 169.197.141.91, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 加拿大绿头外网集团Public_132, server: 198.57.27.188, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 加拿大绿头外网集团Public_79, server: 134.195.196.81, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 加拿大绿头外网集团Public_135, server: 198.57.27.241, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 加拿大绿头外网集团Public_214, server: 134.195.196.193, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 美国绿头外网集团Public_541, server: 167.88.61.15, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 美国绿头外网集团Public_837, server: 167.88.63.28, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 美国绿头外网集团Public_854, server: 38.121.43.91, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 加拿大绿头外网集团Public_80, server: 134.195.196.81, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 美国绿头外网集团Public_756, server: 38.114.114.49, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国绿头外网集团Public_816, server: 38.121.43.204, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 美国绿头外网集团Public_626, server: 38.68.134.37, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _US_美国 12, server: 169.197.141.91, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 加拿大绿头外网集团Public_173, server: 134.195.196.200, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 英国绿头外网集团Public_369, server: 172.99.190.205, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 美国绿头外网集团Public_865, server: 38.121.43.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国 161, server: 169.197.141.240, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 美国绿头外网集团Public_569, server: 172.99.190.139, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 加拿大绿头外网集团Public_138, server: 198.57.27.241, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 美国绿头外网集团Public_810, server: 167.88.62.34, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 美国绿头外网集团Public_602, server: 38.121.43.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 加拿大绿头外网集团Public_193, server: 134.195.196.200, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 香港绿头外网集团Public_442, server: 93.179.124.239, port: 36126, type: ss, cipher: aes-256-gcm, password: LOcBPTTK0r, udp: true}
-  - {name: 美国绿头外网集团Public_598, server: 38.121.43.71, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国绿头外网集团Public_767, server: 38.121.43.3, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 美国绿头外网集团Public_840, server: 38.114.114.77, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 加拿大绿头外网集团Public_31, server: 134.195.196.193, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 日本绿头外网集团Public_460, server: cn-cslt.88abc88.xyz, port: 23041, type: vmess, uuid: a8d27fa4-f4d5-4d9d-854d-f2cb111b7a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国绿头外网集团Public_553, server: 169.197.142.99, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 加拿大绿头外网集团Public_183, server: 134.195.196.200, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 加拿大绿头外网集团Public_184, server: 134.195.196.193, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国绿头外网集团Public_787, server: 167.88.63.60, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 加拿大绿头外网集团Public_72, server: 134.195.196.81, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 加拿大绿头外网集团Public_162, server: 134.195.196.128, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 加拿大绿头外网集团Public_264, server: 134.195.196.149, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 美国绿头外网集团Public_557, server: 169.197.142.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 加拿大绿头外网集团Public_94, server: 198.57.27.152, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 美国绿头外网集团Public_821, server: 38.121.43.204, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 美国_阿伟科技-油管 12, server: 169.197.143.219, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 加拿大绿头外网集团Public_7, server: 134.195.196.128, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 德国绿头外网集团Public_299, server: 193.108.118.36, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 美国绿头外网集团Public_872, server: 38.107.226.48, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 美国绿头外网集团Public_556, server: 169.197.142.99, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 美国绿头外网集团Public_625, server: 38.68.134.37, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 美国绿头外网集团Public_835, server: 38.121.43.3, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: 美国绿头外网集团Public_852, server: 169.197.142.99, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 加拿大绿头外网集团Public_237, server: 134.195.196.200, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 美国绿头外网集团Public_612, server: 38.121.43.91, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 美国绿头外网集团Public_794, server: 38.68.134.37, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: 美国绿头外网集团Public_805, server: 167.88.61.15, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 美国绿头外网集团Public_663, server: 38.75.136.49, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 加拿大绿头外网集团Public_95, server: 198.57.27.152, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 加拿大绿头外网集团Public_215, server: 134.195.196.200, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 台湾(绿头外网集团)(Public) 3, server: 60.249.3.231, port: 3389, type: trojan, password: 86ba9055070f93ba, skip-cert-verify: true, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 4, server: ssl.tcpbbr.net, port: 443, type: trojan, password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b, sni: ssl.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: "[CT/CM]香港 07", server: shcu001online.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 43474:cloud_009529_, obfs-param: "", udp: true}
+  - {name: 美国(绿头外网集团)(Public) 95, server: 167.88.61.14, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 美国(绿头外网集团)(Public) 94, server: 167.88.61.14, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 美国(绿头外网集团)(Public) 93, server: 167.88.61.14, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国(绿头外网集团)(Public) 86, server: 167.88.62.34, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 美国(绿头外网集团)(Public) 61, server: 167.88.63.74, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 美国(绿头外网集团)(Public) 76, server: 167.88.63.61, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 美国 优化-2, server: shusa.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 43474:cloud_009529_, obfs-param: "", udp: true}
+  - {name: 美国(绿头外网集团)(Public) 70, server: 167.88.63.61, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 美国 优化-1, server: shusa.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 43474:cloud_009529_, obfs-param: "", udp: true}
+  - {name: 美国(绿头外网集团)(Public) 72, server: 167.88.63.61, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 美国(绿头外网集团)(Public) 79, server: 167.88.63.33, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 美国(绿头外网集团)(Public) 97, server: 167.88.63.61, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: youtube:8度科技_美国 121, server: 38.68.134.191, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 美国(绿头外网集团)(Public) 78, server: 167.88.63.33, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 22, server: 198.57.27.172, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: youtube:8度科技_美国 118, server: 38.143.66.55, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 美国(绿头外网集团)(Public) 81, server: 167.88.63.33, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 美国(绿头外网集团)(Public) 80, server: 167.88.63.33, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 加拿大(绿头外网集团)(Public) 64, server: 198.57.27.152, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 美国(绿头外网集团)(Public) 73, server: 167.88.63.61, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 美国(绿头外网集团)(Public) 74, server: 167.88.63.61, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 加拿大(绿头外网集团)(Public) 66, server: 134.195.196.200, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 美国(绿头外网集团)(Public) 69, server: 167.88.63.61, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: youtube:8度科技_美国 62, server: 142.202.48.34, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国(绿头外网集团)(Public) 60, server: 167.88.63.74, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 美国(绿头外网集团)(Public) 77, server: 167.88.63.61, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: "[CT/CM]香港 04", server: shcu001online.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 43474:cloud_009529_, obfs-param: "", udp: true}
+  - {name: youtube:8度科技_美国 71, server: 142.202.48.34, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 美国(绿头外网集团)(Public) 83, server: 167.88.63.28, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 15, server: 198.57.27.172, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 美国(绿头外网集团)(Public) 68, server: 167.88.63.74, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: youtube:8度科技_美国 72, server: 38.121.43.71, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 加拿大(绿头外网集团)(Public) 18, server: 198.57.27.152, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: youtube:8度科技_美国 31, server: 38.75.136.45, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 11, server: 198.57.27.172, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: 美国(绿头外网集团)(Public) 66, server: 167.88.63.74, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 13, server: 198.57.27.172, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 美国(绿头外网集团)(Public) 65, server: 167.88.63.74, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: youtube:8度科技_加拿大 23, server: 198.57.27.152, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 27, server: 134.195.196.71, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 加拿大(绿头外网集团)(Public) 65, server: 134.195.196.193, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 美国(绿头外网集团)(Public) 53, server: 38.114.114.19, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: youtube:8度科技_美国 105, server: 38.107.226.48, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: youtube:8度科技_澳大利亚 14, server: 172.105.180.227, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: youtube:8度科技_布维岛 3, server: 46.29.219.246, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 25, server: 198.57.27.172, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 【小库订阅】US_2469, server: 38.75.136.93, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: youtube:8度科技_美国 51, server: 38.68.134.191, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: youtube:8度科技_美国 22, server: 142.202.48.34, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: youtube:8度科技_加拿大 44, server: 134.195.196.193, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 德国(绿头外网集团)(Public) 2, server: 172.105.244.165, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: youtube:8度科技_加拿大 25, server: 198.57.27.184, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: youtube:8度科技_美国 14, server: 169.197.141.91, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 美国-高速节点购买：suo.yt/gvip（复制到浏览器打开） 4, server: 38.91.100.102, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 加拿大(绿头外网集团)(Public) 60, server: 134.195.196.101, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 14, server: 134.195.196.71, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 加拿大(绿头外网集团)(Public) 23, server: 198.57.27.152, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 加拿大(绿头外网集团)(Public) 59, server: 134.195.196.101, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国-高速节点购买：suo.yt/gvip（复制到浏览器打开）, server: 38.91.100.102, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: youtube:8度科技_英国 25, server: 172.99.190.109, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 美国(绿头外网集团)(Public) 91, server: 167.88.61.175, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: youtube:8度科技_英国 24, server: 172.99.190.109, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: France 4 t.me/SurfShark_ALA_67, server: 95.142.161.161, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: X7EBlPe92tq6, udp: true}
+  - {name: youtube:8度科技_美国 23, server: 169.197.141.91, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 加拿大(绿头外网集团)(Public) 55, server: 134.195.196.147, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: youtube:8度科技_加拿大, server: 198.57.27.184, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 美国(绿头外网集团)(Public) 59, server: 167.88.63.74, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国(绿头外网集团)(Public) 63, server: 167.88.63.74, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: youtube:8度科技_美国 20, server: 167.88.62.34, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 28, server: 134.195.196.71, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 加拿大(绿头外网集团)(Public) 22, server: 198.57.27.152, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 36, server: 198.57.27.172, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: 加拿大(绿头外网集团)(Public) 57, server: 134.195.196.144, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: youtube:8度科技_加拿大 34, server: 134.195.196.193, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 美国-高速节点购买：suo.yt/gvip（复制到浏览器打开） 8, server: 38.91.100.102, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 39, server: 134.195.196.71, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: youtube:8度科技_美国 109, server: 169.197.141.91, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 5, server: 198.57.27.172, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: youtube:8度科技_澳大利亚 16, server: 172.105.180.227, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: youtube:8度科技_加拿大 8, server: 198.57.27.241, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 29, server: 198.57.27.172, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 美国(绿头外网集团)(Public) 90, server: 167.88.61.213, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 加拿大(绿头外网集团)(Public) 56, server: 134.195.196.147, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: youtube:8度科技_美国 53, server: 38.68.134.23, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: youtube:8度科技_美国 58, server: 38.91.101.11, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: youtube:8度科技_加拿大 42, server: 198.57.27.152, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: youtube:8度科技_美国 69, server: 167.88.63.28, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: youtube:8度科技_美国 92, server: 142.202.48.34, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: youtube:8度科技_美国 120, server: 167.88.61.60, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: youtube:8度科技_澳大利亚 4, server: 172.105.180.227, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 加拿大(绿头外网集团)(Public) 7, server: 198.57.27.188, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 加拿大(绿头外网集团)(Public) 27, server: 134.195.196.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: lv-移动优选v4, server: 104.17.161.28, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxus.fovi.tk}, udp: true}
+  - {name: youtube:8度科技_美国 61, server: 38.68.134.23, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港绿头外网集团Public_445
-      - 香港绿头外网集团Public_412
-      - 香港绿头外网集团Public_414
-      - 香港绿头外网集团Public_415
-      - 香港绿头外网集团Public_411
-      - 印度绿头外网集团Public_449
-      - 日本绿头外网集团Public_476
-      - 香港绿头外网集团Public_433
-      - 台湾绿头外网集团Public_530
-      - 美国绿头外网集团Public_691
-      - 香港绿头外网集团Public_413
-      - 美国绿头外网集团Public_690
-      - 美国绿头外网集团Public_693
-      - 美国绿头外网集团Public_692
-      - 台湾绿头外网集团Public_534
-      - 美国绿头外网集团Public_689
-      - 台湾绿头外网集团Public_533
-      - 俄罗斯绿头外网集团Public_506
-      - 香港绿头外网集团Public_441
-      - 美国绿头外网集团Public_670
-      - 香港绿头外网集团Public_382
-      - 新加坡绿头外网集团Public_521
-      - 美国绿头外网集团Public_830
-      - 香港绿头外网集团Public_422
-      - 美国_阿伟科技-油管
-      - 俄罗斯绿头外网集团Public_508
-      - 美国_阿伟科技-油管 2
-      - 俄罗斯绿头外网集团Public_509
-      - 俄罗斯绿头外网集团Public_507
-      - 美国绿头外网集团Public_732
-      - 美国绿头外网集团Public_758
-      - 美国绿头外网集团Public_820
-      - 加拿大绿头外网集团Public_250
-      - 英国绿头外网集团Public_355
-      - 美国绿头外网集团Public_809
-      - 加拿大绿头外网集团Public_142
-      - 美国绿头外网集团Public_814
-      - 美国_阿伟科技-油管 3
-      - 加拿大绿头外网集团Public_160
-      - 加拿大绿头外网集团Public_141
-      - 日本绿头外网集团Public_459
-      - 美国_阿伟科技-油管 4
-      - 美国绿头外网集团Public_671
-      - 加拿大绿头外网集团Public_236
-      - 加拿大绿头外网集团Public_13
-      - 美国绿头外网集团Public_800
-      - 美国_阿伟科技-油管 5
-      - 美国_阿伟科技-油管 6
-      - 英国绿头外网集团Public_342
-      - 日本绿头外网集团Public_469
-      - 香港绿头外网集团Public_443
-      - 日本绿头外网集团Public_472
-      - 美国绿头外网集团Public_675
-      - 美国绿头外网集团Public_765
-      - 美国绿头外网集团Public_797
-      - 英国绿头外网集团Public_349
-      - 德国绿头外网集团Public_281
-      - 加拿大绿头外网集团Public_131
-      - 美国绿头外网集团Public_795
-      - 加拿大绿头外网集团Public_29
-      - 德国绿头外网集团Public_296
-      - 美国绿头外网集团Public_627
-      - 加拿大绿头外网集团Public_129
-      - 德国绿头外网集团Public_298
-      - 美国_阿伟科技-油管 7
-      - 日本绿头外网集团Public_461
-      - 美国绿头外网集团Public_718
-      - 美国绿头外网集团Public_555
-      - 加拿大绿头外网集团Public_245
-      - 加拿大绿头外网集团Public_20
-      - 美国绿头外网集团Public_607
-      - 美国绿头外网集团Public_747
-      - 美国绿头外网集团Public_634
-      - 美国绿头外网集团Public_659
-      - 美国绿头外网集团Public_858
-      - 美国绿头外网集团Public_579
-      - 美国绿头外网集团Public_728
-      - 美国绿头外网集团Public_784
-      - 加拿大绿头外网集团Public_271
-      - 美国绿头外网集团Public_672
-      - 【426节点池】US_1433
-      - 美国绿头外网集团Public_836
-      - 美国_阿伟科技-油管 8
-      - 加拿大绿头外网集团Public_228
-      - 美国_阿伟科技-油管 9
-      - 加拿大绿头外网集团Public_16
-      - 美国绿头外网集团Public_819
-      - 英国绿头外网集团Public_350
-      - 英国绿头外网集团Public_358
-      - 美国绿头外网集团Public_608
-      - 美国绿头外网集团Public_807
-      - 【426节点池】US_1500
-      - 美国绿头外网集团Public_730
-      - 美国绿头外网集团Public_721
-      - 美国绿头外网集团Public_731
-      - 美国绿头外网集团Public_799
-      - 美国绿头外网集团Public_860
-      - 美国_阿伟科技-油管 10
-      - 加拿大绿头外网集团Public_103
-      - 新加坡绿头外网集团Public_520
-      - 美国_阿伟科技-油管 11
-      - 德国绿头外网集团Public_295
-      - _US_美国 102
-      - 加拿大绿头外网集团Public_132
-      - 加拿大绿头外网集团Public_79
-      - 加拿大绿头外网集团Public_135
-      - 加拿大绿头外网集团Public_214
-      - 美国绿头外网集团Public_541
-      - 美国绿头外网集团Public_837
-      - 美国绿头外网集团Public_854
-      - 加拿大绿头外网集团Public_80
-      - 美国绿头外网集团Public_756
-      - 美国绿头外网集团Public_816
-      - 美国绿头外网集团Public_626
-      - _US_美国 12
-      - 加拿大绿头外网集团Public_173
-      - 英国绿头外网集团Public_369
-      - 美国绿头外网集团Public_865
-      - _US_美国 161
-      - 美国绿头外网集团Public_569
-      - 加拿大绿头外网集团Public_138
-      - 美国绿头外网集团Public_810
-      - 美国绿头外网集团Public_602
-      - 加拿大绿头外网集团Public_193
-      - 香港绿头外网集团Public_442
-      - 美国绿头外网集团Public_598
-      - 美国绿头外网集团Public_767
-      - 美国绿头外网集团Public_840
-      - 加拿大绿头外网集团Public_31
-      - 日本绿头外网集团Public_460
-      - 美国绿头外网集团Public_553
-      - 加拿大绿头外网集团Public_183
-      - 加拿大绿头外网集团Public_184
-      - 美国绿头外网集团Public_787
-      - 加拿大绿头外网集团Public_72
-      - 加拿大绿头外网集团Public_162
-      - 加拿大绿头外网集团Public_264
-      - 美国绿头外网集团Public_557
-      - 加拿大绿头外网集团Public_94
-      - 美国绿头外网集团Public_821
-      - 美国_阿伟科技-油管 12
-      - 加拿大绿头外网集团Public_7
-      - 德国绿头外网集团Public_299
-      - 美国绿头外网集团Public_872
-      - 美国绿头外网集团Public_556
-      - 美国绿头外网集团Public_625
-      - 美国绿头外网集团Public_835
-      - 美国绿头外网集团Public_852
-      - 加拿大绿头外网集团Public_237
-      - 美国绿头外网集团Public_612
-      - 美国绿头外网集团Public_794
-      - 美国绿头外网集团Public_805
-      - 美国绿头外网集团Public_663
-      - 加拿大绿头外网集团Public_95
-      - 加拿大绿头外网集团Public_215
+      - 台湾(绿头外网集团)(Public) 3
+      - 香港(绿头外网集团)(Public) 4
+      - "[CT/CM]香港 07"
+      - 美国(绿头外网集团)(Public) 95
+      - 美国(绿头外网集团)(Public) 94
+      - 美国(绿头外网集团)(Public) 93
+      - 美国(绿头外网集团)(Public) 86
+      - 美国(绿头外网集团)(Public) 61
+      - 美国(绿头外网集团)(Public) 76
+      - 美国 优化-2
+      - 美国(绿头外网集团)(Public) 70
+      - 美国 优化-1
+      - 美国(绿头外网集团)(Public) 72
+      - 美国(绿头外网集团)(Public) 79
+      - 美国(绿头外网集团)(Public) 97
+      - youtube:8度科技_美国 121
+      - 美国(绿头外网集团)(Public) 78
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 22
+      - youtube:8度科技_美国 118
+      - 美国(绿头外网集团)(Public) 81
+      - 美国(绿头外网集团)(Public) 80
+      - 加拿大(绿头外网集团)(Public) 64
+      - 美国(绿头外网集团)(Public) 73
+      - 美国(绿头外网集团)(Public) 74
+      - 加拿大(绿头外网集团)(Public) 66
+      - 美国(绿头外网集团)(Public) 69
+      - youtube:8度科技_美国 62
+      - 美国(绿头外网集团)(Public) 60
+      - 美国(绿头外网集团)(Public) 77
+      - "[CT/CM]香港 04"
+      - youtube:8度科技_美国 71
+      - 美国(绿头外网集团)(Public) 83
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 15
+      - 美国(绿头外网集团)(Public) 68
+      - youtube:8度科技_美国 72
+      - 加拿大(绿头外网集团)(Public) 18
+      - youtube:8度科技_美国 31
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 11
+      - 美国(绿头外网集团)(Public) 66
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 13
+      - 美国(绿头外网集团)(Public) 65
+      - youtube:8度科技_加拿大 23
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 27
+      - 加拿大(绿头外网集团)(Public) 65
+      - 美国(绿头外网集团)(Public) 53
+      - youtube:8度科技_美国 105
+      - youtube:8度科技_澳大利亚 14
+      - youtube:8度科技_布维岛 3
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 25
+      - 【小库订阅】US_2469
+      - youtube:8度科技_美国 51
+      - youtube:8度科技_美国 22
+      - youtube:8度科技_加拿大 44
+      - 德国(绿头外网集团)(Public) 2
+      - youtube:8度科技_加拿大 25
+      - youtube:8度科技_美国 14
+      - 美国-高速节点购买：suo.yt/gvip（复制到浏览器打开） 4
+      - 加拿大(绿头外网集团)(Public) 60
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 14
+      - 加拿大(绿头外网集团)(Public) 23
+      - 加拿大(绿头外网集团)(Public) 59
+      - 美国-高速节点购买：suo.yt/gvip（复制到浏览器打开）
+      - youtube:8度科技_英国 25
+      - 美国(绿头外网集团)(Public) 91
+      - youtube:8度科技_英国 24
+      - France 4 t.me/SurfShark_ALA_67
+      - youtube:8度科技_美国 23
+      - 加拿大(绿头外网集团)(Public) 55
+      - youtube:8度科技_加拿大
+      - 美国(绿头外网集团)(Public) 59
+      - 美国(绿头外网集团)(Public) 63
+      - youtube:8度科技_美国 20
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 28
+      - 加拿大(绿头外网集团)(Public) 22
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 36
+      - 加拿大(绿头外网集团)(Public) 57
+      - youtube:8度科技_加拿大 34
+      - 美国-高速节点购买：suo.yt/gvip（复制到浏览器打开） 8
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 39
+      - youtube:8度科技_美国 109
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 5
+      - youtube:8度科技_澳大利亚 16
+      - youtube:8度科技_加拿大 8
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 29
+      - 美国(绿头外网集团)(Public) 90
+      - 加拿大(绿头外网集团)(Public) 56
+      - youtube:8度科技_美国 53
+      - youtube:8度科技_美国 58
+      - youtube:8度科技_加拿大 42
+      - youtube:8度科技_美国 69
+      - youtube:8度科技_美国 92
+      - youtube:8度科技_美国 120
+      - youtube:8度科技_澳大利亚 4
+      - 加拿大(绿头外网集团)(Public) 7
+      - 加拿大(绿头外网集团)(Public) 27
+      - lv-移动优选v4
+      - youtube:8度科技_美国 61
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 香港绿头外网集团Public_445
-      - 香港绿头外网集团Public_412
-      - 香港绿头外网集团Public_414
-      - 香港绿头外网集团Public_415
-      - 香港绿头外网集团Public_411
-      - 印度绿头外网集团Public_449
-      - 日本绿头外网集团Public_476
-      - 香港绿头外网集团Public_433
-      - 台湾绿头外网集团Public_530
-      - 美国绿头外网集团Public_691
-      - 香港绿头外网集团Public_413
-      - 美国绿头外网集团Public_690
-      - 美国绿头外网集团Public_693
-      - 美国绿头外网集团Public_692
-      - 台湾绿头外网集团Public_534
-      - 美国绿头外网集团Public_689
-      - 台湾绿头外网集团Public_533
-      - 俄罗斯绿头外网集团Public_506
-      - 香港绿头外网集团Public_441
-      - 美国绿头外网集团Public_670
-      - 香港绿头外网集团Public_382
-      - 新加坡绿头外网集团Public_521
-      - 美国绿头外网集团Public_830
-      - 香港绿头外网集团Public_422
-      - 美国_阿伟科技-油管
-      - 俄罗斯绿头外网集团Public_508
-      - 美国_阿伟科技-油管 2
-      - 俄罗斯绿头外网集团Public_509
-      - 俄罗斯绿头外网集团Public_507
-      - 美国绿头外网集团Public_732
-      - 美国绿头外网集团Public_758
-      - 美国绿头外网集团Public_820
-      - 加拿大绿头外网集团Public_250
-      - 英国绿头外网集团Public_355
-      - 美国绿头外网集团Public_809
-      - 加拿大绿头外网集团Public_142
-      - 美国绿头外网集团Public_814
-      - 美国_阿伟科技-油管 3
-      - 加拿大绿头外网集团Public_160
-      - 加拿大绿头外网集团Public_141
-      - 日本绿头外网集团Public_459
-      - 美国_阿伟科技-油管 4
-      - 美国绿头外网集团Public_671
-      - 加拿大绿头外网集团Public_236
-      - 加拿大绿头外网集团Public_13
-      - 美国绿头外网集团Public_800
-      - 美国_阿伟科技-油管 5
-      - 美国_阿伟科技-油管 6
-      - 英国绿头外网集团Public_342
-      - 日本绿头外网集团Public_469
-      - 香港绿头外网集团Public_443
-      - 日本绿头外网集团Public_472
-      - 美国绿头外网集团Public_675
-      - 美国绿头外网集团Public_765
-      - 美国绿头外网集团Public_797
-      - 英国绿头外网集团Public_349
-      - 德国绿头外网集团Public_281
-      - 加拿大绿头外网集团Public_131
-      - 美国绿头外网集团Public_795
-      - 加拿大绿头外网集团Public_29
-      - 德国绿头外网集团Public_296
-      - 美国绿头外网集团Public_627
-      - 加拿大绿头外网集团Public_129
-      - 德国绿头外网集团Public_298
-      - 美国_阿伟科技-油管 7
-      - 日本绿头外网集团Public_461
-      - 美国绿头外网集团Public_718
-      - 美国绿头外网集团Public_555
-      - 加拿大绿头外网集团Public_245
-      - 加拿大绿头外网集团Public_20
-      - 美国绿头外网集团Public_607
-      - 美国绿头外网集团Public_747
-      - 美国绿头外网集团Public_634
-      - 美国绿头外网集团Public_659
-      - 美国绿头外网集团Public_858
-      - 美国绿头外网集团Public_579
-      - 美国绿头外网集团Public_728
-      - 美国绿头外网集团Public_784
-      - 加拿大绿头外网集团Public_271
-      - 美国绿头外网集团Public_672
-      - 【426节点池】US_1433
-      - 美国绿头外网集团Public_836
-      - 美国_阿伟科技-油管 8
-      - 加拿大绿头外网集团Public_228
-      - 美国_阿伟科技-油管 9
-      - 加拿大绿头外网集团Public_16
-      - 美国绿头外网集团Public_819
-      - 英国绿头外网集团Public_350
-      - 英国绿头外网集团Public_358
-      - 美国绿头外网集团Public_608
-      - 美国绿头外网集团Public_807
-      - 【426节点池】US_1500
-      - 美国绿头外网集团Public_730
-      - 美国绿头外网集团Public_721
-      - 美国绿头外网集团Public_731
-      - 美国绿头外网集团Public_799
-      - 美国绿头外网集团Public_860
-      - 美国_阿伟科技-油管 10
-      - 加拿大绿头外网集团Public_103
-      - 新加坡绿头外网集团Public_520
-      - 美国_阿伟科技-油管 11
-      - 德国绿头外网集团Public_295
-      - _US_美国 102
-      - 加拿大绿头外网集团Public_132
-      - 加拿大绿头外网集团Public_79
-      - 加拿大绿头外网集团Public_135
-      - 加拿大绿头外网集团Public_214
-      - 美国绿头外网集团Public_541
-      - 美国绿头外网集团Public_837
-      - 美国绿头外网集团Public_854
-      - 加拿大绿头外网集团Public_80
-      - 美国绿头外网集团Public_756
-      - 美国绿头外网集团Public_816
-      - 美国绿头外网集团Public_626
-      - _US_美国 12
-      - 加拿大绿头外网集团Public_173
-      - 英国绿头外网集团Public_369
-      - 美国绿头外网集团Public_865
-      - _US_美国 161
-      - 美国绿头外网集团Public_569
-      - 加拿大绿头外网集团Public_138
-      - 美国绿头外网集团Public_810
-      - 美国绿头外网集团Public_602
-      - 加拿大绿头外网集团Public_193
-      - 香港绿头外网集团Public_442
-      - 美国绿头外网集团Public_598
-      - 美国绿头外网集团Public_767
-      - 美国绿头外网集团Public_840
-      - 加拿大绿头外网集团Public_31
-      - 日本绿头外网集团Public_460
-      - 美国绿头外网集团Public_553
-      - 加拿大绿头外网集团Public_183
-      - 加拿大绿头外网集团Public_184
-      - 美国绿头外网集团Public_787
-      - 加拿大绿头外网集团Public_72
-      - 加拿大绿头外网集团Public_162
-      - 加拿大绿头外网集团Public_264
-      - 美国绿头外网集团Public_557
-      - 加拿大绿头外网集团Public_94
-      - 美国绿头外网集团Public_821
-      - 美国_阿伟科技-油管 12
-      - 加拿大绿头外网集团Public_7
-      - 德国绿头外网集团Public_299
-      - 美国绿头外网集团Public_872
-      - 美国绿头外网集团Public_556
-      - 美国绿头外网集团Public_625
-      - 美国绿头外网集团Public_835
-      - 美国绿头外网集团Public_852
-      - 加拿大绿头外网集团Public_237
-      - 美国绿头外网集团Public_612
-      - 美国绿头外网集团Public_794
-      - 美国绿头外网集团Public_805
-      - 美国绿头外网集团Public_663
-      - 加拿大绿头外网集团Public_95
-      - 加拿大绿头外网集团Public_215
+      - 台湾(绿头外网集团)(Public) 3
+      - 香港(绿头外网集团)(Public) 4
+      - "[CT/CM]香港 07"
+      - 美国(绿头外网集团)(Public) 95
+      - 美国(绿头外网集团)(Public) 94
+      - 美国(绿头外网集团)(Public) 93
+      - 美国(绿头外网集团)(Public) 86
+      - 美国(绿头外网集团)(Public) 61
+      - 美国(绿头外网集团)(Public) 76
+      - 美国 优化-2
+      - 美国(绿头外网集团)(Public) 70
+      - 美国 优化-1
+      - 美国(绿头外网集团)(Public) 72
+      - 美国(绿头外网集团)(Public) 79
+      - 美国(绿头外网集团)(Public) 97
+      - youtube:8度科技_美国 121
+      - 美国(绿头外网集团)(Public) 78
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 22
+      - youtube:8度科技_美国 118
+      - 美国(绿头外网集团)(Public) 81
+      - 美国(绿头外网集团)(Public) 80
+      - 加拿大(绿头外网集团)(Public) 64
+      - 美国(绿头外网集团)(Public) 73
+      - 美国(绿头外网集团)(Public) 74
+      - 加拿大(绿头外网集团)(Public) 66
+      - 美国(绿头外网集团)(Public) 69
+      - youtube:8度科技_美国 62
+      - 美国(绿头外网集团)(Public) 60
+      - 美国(绿头外网集团)(Public) 77
+      - "[CT/CM]香港 04"
+      - youtube:8度科技_美国 71
+      - 美国(绿头外网集团)(Public) 83
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 15
+      - 美国(绿头外网集团)(Public) 68
+      - youtube:8度科技_美国 72
+      - 加拿大(绿头外网集团)(Public) 18
+      - youtube:8度科技_美国 31
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 11
+      - 美国(绿头外网集团)(Public) 66
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 13
+      - 美国(绿头外网集团)(Public) 65
+      - youtube:8度科技_加拿大 23
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 27
+      - 加拿大(绿头外网集团)(Public) 65
+      - 美国(绿头外网集团)(Public) 53
+      - youtube:8度科技_美国 105
+      - youtube:8度科技_澳大利亚 14
+      - youtube:8度科技_布维岛 3
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 25
+      - 【小库订阅】US_2469
+      - youtube:8度科技_美国 51
+      - youtube:8度科技_美国 22
+      - youtube:8度科技_加拿大 44
+      - 德国(绿头外网集团)(Public) 2
+      - youtube:8度科技_加拿大 25
+      - youtube:8度科技_美国 14
+      - 美国-高速节点购买：suo.yt/gvip（复制到浏览器打开） 4
+      - 加拿大(绿头外网集团)(Public) 60
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 14
+      - 加拿大(绿头外网集团)(Public) 23
+      - 加拿大(绿头外网集团)(Public) 59
+      - 美国-高速节点购买：suo.yt/gvip（复制到浏览器打开）
+      - youtube:8度科技_英国 25
+      - 美国(绿头外网集团)(Public) 91
+      - youtube:8度科技_英国 24
+      - France 4 t.me/SurfShark_ALA_67
+      - youtube:8度科技_美国 23
+      - 加拿大(绿头外网集团)(Public) 55
+      - youtube:8度科技_加拿大
+      - 美国(绿头外网集团)(Public) 59
+      - 美国(绿头外网集团)(Public) 63
+      - youtube:8度科技_美国 20
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 28
+      - 加拿大(绿头外网集团)(Public) 22
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 36
+      - 加拿大(绿头外网集团)(Public) 57
+      - youtube:8度科技_加拿大 34
+      - 美国-高速节点购买：suo.yt/gvip（复制到浏览器打开） 8
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 39
+      - youtube:8度科技_美国 109
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 5
+      - youtube:8度科技_澳大利亚 16
+      - youtube:8度科技_加拿大 8
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 29
+      - 美国(绿头外网集团)(Public) 90
+      - 加拿大(绿头外网集团)(Public) 56
+      - youtube:8度科技_美国 53
+      - youtube:8度科技_美国 58
+      - youtube:8度科技_加拿大 42
+      - youtube:8度科技_美国 69
+      - youtube:8度科技_美国 92
+      - youtube:8度科技_美国 120
+      - youtube:8度科技_澳大利亚 4
+      - 加拿大(绿头外网集团)(Public) 7
+      - 加拿大(绿头外网集团)(Public) 27
+      - lv-移动优选v4
+      - youtube:8度科技_美国 61
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港绿头外网集团Public_445
-      - 香港绿头外网集团Public_412
-      - 香港绿头外网集团Public_414
-      - 香港绿头外网集团Public_415
-      - 香港绿头外网集团Public_411
-      - 印度绿头外网集团Public_449
-      - 日本绿头外网集团Public_476
-      - 香港绿头外网集团Public_433
-      - 台湾绿头外网集团Public_530
-      - 美国绿头外网集团Public_691
-      - 香港绿头外网集团Public_413
-      - 美国绿头外网集团Public_690
-      - 美国绿头外网集团Public_693
-      - 美国绿头外网集团Public_692
-      - 台湾绿头外网集团Public_534
-      - 美国绿头外网集团Public_689
-      - 台湾绿头外网集团Public_533
-      - 俄罗斯绿头外网集团Public_506
-      - 香港绿头外网集团Public_441
-      - 美国绿头外网集团Public_670
-      - 香港绿头外网集团Public_382
-      - 新加坡绿头外网集团Public_521
-      - 美国绿头外网集团Public_830
-      - 香港绿头外网集团Public_422
-      - 美国_阿伟科技-油管
-      - 俄罗斯绿头外网集团Public_508
-      - 美国_阿伟科技-油管 2
-      - 俄罗斯绿头外网集团Public_509
-      - 俄罗斯绿头外网集团Public_507
-      - 美国绿头外网集团Public_732
-      - 美国绿头外网集团Public_758
-      - 美国绿头外网集团Public_820
-      - 加拿大绿头外网集团Public_250
-      - 英国绿头外网集团Public_355
-      - 美国绿头外网集团Public_809
-      - 加拿大绿头外网集团Public_142
-      - 美国绿头外网集团Public_814
-      - 美国_阿伟科技-油管 3
-      - 加拿大绿头外网集团Public_160
-      - 加拿大绿头外网集团Public_141
-      - 日本绿头外网集团Public_459
-      - 美国_阿伟科技-油管 4
-      - 美国绿头外网集团Public_671
-      - 加拿大绿头外网集团Public_236
-      - 加拿大绿头外网集团Public_13
-      - 美国绿头外网集团Public_800
-      - 美国_阿伟科技-油管 5
-      - 美国_阿伟科技-油管 6
-      - 英国绿头外网集团Public_342
-      - 日本绿头外网集团Public_469
-      - 香港绿头外网集团Public_443
-      - 日本绿头外网集团Public_472
-      - 美国绿头外网集团Public_675
-      - 美国绿头外网集团Public_765
-      - 美国绿头外网集团Public_797
-      - 英国绿头外网集团Public_349
-      - 德国绿头外网集团Public_281
-      - 加拿大绿头外网集团Public_131
-      - 美国绿头外网集团Public_795
-      - 加拿大绿头外网集团Public_29
-      - 德国绿头外网集团Public_296
-      - 美国绿头外网集团Public_627
-      - 加拿大绿头外网集团Public_129
-      - 德国绿头外网集团Public_298
-      - 美国_阿伟科技-油管 7
-      - 日本绿头外网集团Public_461
-      - 美国绿头外网集团Public_718
-      - 美国绿头外网集团Public_555
-      - 加拿大绿头外网集团Public_245
-      - 加拿大绿头外网集团Public_20
-      - 美国绿头外网集团Public_607
-      - 美国绿头外网集团Public_747
-      - 美国绿头外网集团Public_634
-      - 美国绿头外网集团Public_659
-      - 美国绿头外网集团Public_858
-      - 美国绿头外网集团Public_579
-      - 美国绿头外网集团Public_728
-      - 美国绿头外网集团Public_784
-      - 加拿大绿头外网集团Public_271
-      - 美国绿头外网集团Public_672
-      - 【426节点池】US_1433
-      - 美国绿头外网集团Public_836
-      - 美国_阿伟科技-油管 8
-      - 加拿大绿头外网集团Public_228
-      - 美国_阿伟科技-油管 9
-      - 加拿大绿头外网集团Public_16
-      - 美国绿头外网集团Public_819
-      - 英国绿头外网集团Public_350
-      - 英国绿头外网集团Public_358
-      - 美国绿头外网集团Public_608
-      - 美国绿头外网集团Public_807
-      - 【426节点池】US_1500
-      - 美国绿头外网集团Public_730
-      - 美国绿头外网集团Public_721
-      - 美国绿头外网集团Public_731
-      - 美国绿头外网集团Public_799
-      - 美国绿头外网集团Public_860
-      - 美国_阿伟科技-油管 10
-      - 加拿大绿头外网集团Public_103
-      - 新加坡绿头外网集团Public_520
-      - 美国_阿伟科技-油管 11
-      - 德国绿头外网集团Public_295
-      - _US_美国 102
-      - 加拿大绿头外网集团Public_132
-      - 加拿大绿头外网集团Public_79
-      - 加拿大绿头外网集团Public_135
-      - 加拿大绿头外网集团Public_214
-      - 美国绿头外网集团Public_541
-      - 美国绿头外网集团Public_837
-      - 美国绿头外网集团Public_854
-      - 加拿大绿头外网集团Public_80
-      - 美国绿头外网集团Public_756
-      - 美国绿头外网集团Public_816
-      - 美国绿头外网集团Public_626
-      - _US_美国 12
-      - 加拿大绿头外网集团Public_173
-      - 英国绿头外网集团Public_369
-      - 美国绿头外网集团Public_865
-      - _US_美国 161
-      - 美国绿头外网集团Public_569
-      - 加拿大绿头外网集团Public_138
-      - 美国绿头外网集团Public_810
-      - 美国绿头外网集团Public_602
-      - 加拿大绿头外网集团Public_193
-      - 香港绿头外网集团Public_442
-      - 美国绿头外网集团Public_598
-      - 美国绿头外网集团Public_767
-      - 美国绿头外网集团Public_840
-      - 加拿大绿头外网集团Public_31
-      - 日本绿头外网集团Public_460
-      - 美国绿头外网集团Public_553
-      - 加拿大绿头外网集团Public_183
-      - 加拿大绿头外网集团Public_184
-      - 美国绿头外网集团Public_787
-      - 加拿大绿头外网集团Public_72
-      - 加拿大绿头外网集团Public_162
-      - 加拿大绿头外网集团Public_264
-      - 美国绿头外网集团Public_557
-      - 加拿大绿头外网集团Public_94
-      - 美国绿头外网集团Public_821
-      - 美国_阿伟科技-油管 12
-      - 加拿大绿头外网集团Public_7
-      - 德国绿头外网集团Public_299
-      - 美国绿头外网集团Public_872
-      - 美国绿头外网集团Public_556
-      - 美国绿头外网集团Public_625
-      - 美国绿头外网集团Public_835
-      - 美国绿头外网集团Public_852
-      - 加拿大绿头外网集团Public_237
-      - 美国绿头外网集团Public_612
-      - 美国绿头外网集团Public_794
-      - 美国绿头外网集团Public_805
-      - 美国绿头外网集团Public_663
-      - 加拿大绿头外网集团Public_95
-      - 加拿大绿头外网集团Public_215
+      - 台湾(绿头外网集团)(Public) 3
+      - 香港(绿头外网集团)(Public) 4
+      - "[CT/CM]香港 07"
+      - 美国(绿头外网集团)(Public) 95
+      - 美国(绿头外网集团)(Public) 94
+      - 美国(绿头外网集团)(Public) 93
+      - 美国(绿头外网集团)(Public) 86
+      - 美国(绿头外网集团)(Public) 61
+      - 美国(绿头外网集团)(Public) 76
+      - 美国 优化-2
+      - 美国(绿头外网集团)(Public) 70
+      - 美国 优化-1
+      - 美国(绿头外网集团)(Public) 72
+      - 美国(绿头外网集团)(Public) 79
+      - 美国(绿头外网集团)(Public) 97
+      - youtube:8度科技_美国 121
+      - 美国(绿头外网集团)(Public) 78
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 22
+      - youtube:8度科技_美国 118
+      - 美国(绿头外网集团)(Public) 81
+      - 美国(绿头外网集团)(Public) 80
+      - 加拿大(绿头外网集团)(Public) 64
+      - 美国(绿头外网集团)(Public) 73
+      - 美国(绿头外网集团)(Public) 74
+      - 加拿大(绿头外网集团)(Public) 66
+      - 美国(绿头外网集团)(Public) 69
+      - youtube:8度科技_美国 62
+      - 美国(绿头外网集团)(Public) 60
+      - 美国(绿头外网集团)(Public) 77
+      - "[CT/CM]香港 04"
+      - youtube:8度科技_美国 71
+      - 美国(绿头外网集团)(Public) 83
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 15
+      - 美国(绿头外网集团)(Public) 68
+      - youtube:8度科技_美国 72
+      - 加拿大(绿头外网集团)(Public) 18
+      - youtube:8度科技_美国 31
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 11
+      - 美国(绿头外网集团)(Public) 66
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 13
+      - 美国(绿头外网集团)(Public) 65
+      - youtube:8度科技_加拿大 23
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 27
+      - 加拿大(绿头外网集团)(Public) 65
+      - 美国(绿头外网集团)(Public) 53
+      - youtube:8度科技_美国 105
+      - youtube:8度科技_澳大利亚 14
+      - youtube:8度科技_布维岛 3
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 25
+      - 【小库订阅】US_2469
+      - youtube:8度科技_美国 51
+      - youtube:8度科技_美国 22
+      - youtube:8度科技_加拿大 44
+      - 德国(绿头外网集团)(Public) 2
+      - youtube:8度科技_加拿大 25
+      - youtube:8度科技_美国 14
+      - 美国-高速节点购买：suo.yt/gvip（复制到浏览器打开） 4
+      - 加拿大(绿头外网集团)(Public) 60
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 14
+      - 加拿大(绿头外网集团)(Public) 23
+      - 加拿大(绿头外网集团)(Public) 59
+      - 美国-高速节点购买：suo.yt/gvip（复制到浏览器打开）
+      - youtube:8度科技_英国 25
+      - 美国(绿头外网集团)(Public) 91
+      - youtube:8度科技_英国 24
+      - France 4 t.me/SurfShark_ALA_67
+      - youtube:8度科技_美国 23
+      - 加拿大(绿头外网集团)(Public) 55
+      - youtube:8度科技_加拿大
+      - 美国(绿头外网集团)(Public) 59
+      - 美国(绿头外网集团)(Public) 63
+      - youtube:8度科技_美国 20
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 28
+      - 加拿大(绿头外网集团)(Public) 22
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 36
+      - 加拿大(绿头外网集团)(Public) 57
+      - youtube:8度科技_加拿大 34
+      - 美国-高速节点购买：suo.yt/gvip（复制到浏览器打开） 8
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 39
+      - youtube:8度科技_美国 109
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 5
+      - youtube:8度科技_澳大利亚 16
+      - youtube:8度科技_加拿大 8
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 29
+      - 美国(绿头外网集团)(Public) 90
+      - 加拿大(绿头外网集团)(Public) 56
+      - youtube:8度科技_美国 53
+      - youtube:8度科技_美国 58
+      - youtube:8度科技_加拿大 42
+      - youtube:8度科技_美国 69
+      - youtube:8度科技_美国 92
+      - youtube:8度科技_美国 120
+      - youtube:8度科技_澳大利亚 4
+      - 加拿大(绿头外网集团)(Public) 7
+      - 加拿大(绿头外网集团)(Public) 27
+      - lv-移动优选v4
+      - youtube:8度科技_美国 61
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -660,662 +428,419 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港绿头外网集团Public_445
-      - 香港绿头外网集团Public_412
-      - 香港绿头外网集团Public_414
-      - 香港绿头外网集团Public_415
-      - 香港绿头外网集团Public_411
-      - 印度绿头外网集团Public_449
-      - 日本绿头外网集团Public_476
-      - 香港绿头外网集团Public_433
-      - 台湾绿头外网集团Public_530
-      - 美国绿头外网集团Public_691
-      - 香港绿头外网集团Public_413
-      - 美国绿头外网集团Public_690
-      - 美国绿头外网集团Public_693
-      - 美国绿头外网集团Public_692
-      - 台湾绿头外网集团Public_534
-      - 美国绿头外网集团Public_689
-      - 台湾绿头外网集团Public_533
-      - 俄罗斯绿头外网集团Public_506
-      - 香港绿头外网集团Public_441
-      - 美国绿头外网集团Public_670
-      - 香港绿头外网集团Public_382
-      - 新加坡绿头外网集团Public_521
-      - 美国绿头外网集团Public_830
-      - 香港绿头外网集团Public_422
-      - 美国_阿伟科技-油管
-      - 俄罗斯绿头外网集团Public_508
-      - 美国_阿伟科技-油管 2
-      - 俄罗斯绿头外网集团Public_509
-      - 俄罗斯绿头外网集团Public_507
-      - 美国绿头外网集团Public_732
-      - 美国绿头外网集团Public_758
-      - 美国绿头外网集团Public_820
-      - 加拿大绿头外网集团Public_250
-      - 英国绿头外网集团Public_355
-      - 美国绿头外网集团Public_809
-      - 加拿大绿头外网集团Public_142
-      - 美国绿头外网集团Public_814
-      - 美国_阿伟科技-油管 3
-      - 加拿大绿头外网集团Public_160
-      - 加拿大绿头外网集团Public_141
-      - 日本绿头外网集团Public_459
-      - 美国_阿伟科技-油管 4
-      - 美国绿头外网集团Public_671
-      - 加拿大绿头外网集团Public_236
-      - 加拿大绿头外网集团Public_13
-      - 美国绿头外网集团Public_800
-      - 美国_阿伟科技-油管 5
-      - 美国_阿伟科技-油管 6
-      - 英国绿头外网集团Public_342
-      - 日本绿头外网集团Public_469
-      - 香港绿头外网集团Public_443
-      - 日本绿头外网集团Public_472
-      - 美国绿头外网集团Public_675
-      - 美国绿头外网集团Public_765
-      - 美国绿头外网集团Public_797
-      - 英国绿头外网集团Public_349
-      - 德国绿头外网集团Public_281
-      - 加拿大绿头外网集团Public_131
-      - 美国绿头外网集团Public_795
-      - 加拿大绿头外网集团Public_29
-      - 德国绿头外网集团Public_296
-      - 美国绿头外网集团Public_627
-      - 加拿大绿头外网集团Public_129
-      - 德国绿头外网集团Public_298
-      - 美国_阿伟科技-油管 7
-      - 日本绿头外网集团Public_461
-      - 美国绿头外网集团Public_718
-      - 美国绿头外网集团Public_555
-      - 加拿大绿头外网集团Public_245
-      - 加拿大绿头外网集团Public_20
-      - 美国绿头外网集团Public_607
-      - 美国绿头外网集团Public_747
-      - 美国绿头外网集团Public_634
-      - 美国绿头外网集团Public_659
-      - 美国绿头外网集团Public_858
-      - 美国绿头外网集团Public_579
-      - 美国绿头外网集团Public_728
-      - 美国绿头外网集团Public_784
-      - 加拿大绿头外网集团Public_271
-      - 美国绿头外网集团Public_672
-      - 【426节点池】US_1433
-      - 美国绿头外网集团Public_836
-      - 美国_阿伟科技-油管 8
-      - 加拿大绿头外网集团Public_228
-      - 美国_阿伟科技-油管 9
-      - 加拿大绿头外网集团Public_16
-      - 美国绿头外网集团Public_819
-      - 英国绿头外网集团Public_350
-      - 英国绿头外网集团Public_358
-      - 美国绿头外网集团Public_608
-      - 美国绿头外网集团Public_807
-      - 【426节点池】US_1500
-      - 美国绿头外网集团Public_730
-      - 美国绿头外网集团Public_721
-      - 美国绿头外网集团Public_731
-      - 美国绿头外网集团Public_799
-      - 美国绿头外网集团Public_860
-      - 美国_阿伟科技-油管 10
-      - 加拿大绿头外网集团Public_103
-      - 新加坡绿头外网集团Public_520
-      - 美国_阿伟科技-油管 11
-      - 德国绿头外网集团Public_295
-      - _US_美国 102
-      - 加拿大绿头外网集团Public_132
-      - 加拿大绿头外网集团Public_79
-      - 加拿大绿头外网集团Public_135
-      - 加拿大绿头外网集团Public_214
-      - 美国绿头外网集团Public_541
-      - 美国绿头外网集团Public_837
-      - 美国绿头外网集团Public_854
-      - 加拿大绿头外网集团Public_80
-      - 美国绿头外网集团Public_756
-      - 美国绿头外网集团Public_816
-      - 美国绿头外网集团Public_626
-      - _US_美国 12
-      - 加拿大绿头外网集团Public_173
-      - 英国绿头外网集团Public_369
-      - 美国绿头外网集团Public_865
-      - _US_美国 161
-      - 美国绿头外网集团Public_569
-      - 加拿大绿头外网集团Public_138
-      - 美国绿头外网集团Public_810
-      - 美国绿头外网集团Public_602
-      - 加拿大绿头外网集团Public_193
-      - 香港绿头外网集团Public_442
-      - 美国绿头外网集团Public_598
-      - 美国绿头外网集团Public_767
-      - 美国绿头外网集团Public_840
-      - 加拿大绿头外网集团Public_31
-      - 日本绿头外网集团Public_460
-      - 美国绿头外网集团Public_553
-      - 加拿大绿头外网集团Public_183
-      - 加拿大绿头外网集团Public_184
-      - 美国绿头外网集团Public_787
-      - 加拿大绿头外网集团Public_72
-      - 加拿大绿头外网集团Public_162
-      - 加拿大绿头外网集团Public_264
-      - 美国绿头外网集团Public_557
-      - 加拿大绿头外网集团Public_94
-      - 美国绿头外网集团Public_821
-      - 美国_阿伟科技-油管 12
-      - 加拿大绿头外网集团Public_7
-      - 德国绿头外网集团Public_299
-      - 美国绿头外网集团Public_872
-      - 美国绿头外网集团Public_556
-      - 美国绿头外网集团Public_625
-      - 美国绿头外网集团Public_835
-      - 美国绿头外网集团Public_852
-      - 加拿大绿头外网集团Public_237
-      - 美国绿头外网集团Public_612
-      - 美国绿头外网集团Public_794
-      - 美国绿头外网集团Public_805
-      - 美国绿头外网集团Public_663
-      - 加拿大绿头外网集团Public_95
-      - 加拿大绿头外网集团Public_215
+      - 台湾(绿头外网集团)(Public) 3
+      - 香港(绿头外网集团)(Public) 4
+      - "[CT/CM]香港 07"
+      - 美国(绿头外网集团)(Public) 95
+      - 美国(绿头外网集团)(Public) 94
+      - 美国(绿头外网集团)(Public) 93
+      - 美国(绿头外网集团)(Public) 86
+      - 美国(绿头外网集团)(Public) 61
+      - 美国(绿头外网集团)(Public) 76
+      - 美国 优化-2
+      - 美国(绿头外网集团)(Public) 70
+      - 美国 优化-1
+      - 美国(绿头外网集团)(Public) 72
+      - 美国(绿头外网集团)(Public) 79
+      - 美国(绿头外网集团)(Public) 97
+      - youtube:8度科技_美国 121
+      - 美国(绿头外网集团)(Public) 78
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 22
+      - youtube:8度科技_美国 118
+      - 美国(绿头外网集团)(Public) 81
+      - 美国(绿头外网集团)(Public) 80
+      - 加拿大(绿头外网集团)(Public) 64
+      - 美国(绿头外网集团)(Public) 73
+      - 美国(绿头外网集团)(Public) 74
+      - 加拿大(绿头外网集团)(Public) 66
+      - 美国(绿头外网集团)(Public) 69
+      - youtube:8度科技_美国 62
+      - 美国(绿头外网集团)(Public) 60
+      - 美国(绿头外网集团)(Public) 77
+      - "[CT/CM]香港 04"
+      - youtube:8度科技_美国 71
+      - 美国(绿头外网集团)(Public) 83
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 15
+      - 美国(绿头外网集团)(Public) 68
+      - youtube:8度科技_美国 72
+      - 加拿大(绿头外网集团)(Public) 18
+      - youtube:8度科技_美国 31
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 11
+      - 美国(绿头外网集团)(Public) 66
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 13
+      - 美国(绿头外网集团)(Public) 65
+      - youtube:8度科技_加拿大 23
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 27
+      - 加拿大(绿头外网集团)(Public) 65
+      - 美国(绿头外网集团)(Public) 53
+      - youtube:8度科技_美国 105
+      - youtube:8度科技_澳大利亚 14
+      - youtube:8度科技_布维岛 3
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 25
+      - 【小库订阅】US_2469
+      - youtube:8度科技_美国 51
+      - youtube:8度科技_美国 22
+      - youtube:8度科技_加拿大 44
+      - 德国(绿头外网集团)(Public) 2
+      - youtube:8度科技_加拿大 25
+      - youtube:8度科技_美国 14
+      - 美国-高速节点购买：suo.yt/gvip（复制到浏览器打开） 4
+      - 加拿大(绿头外网集团)(Public) 60
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 14
+      - 加拿大(绿头外网集团)(Public) 23
+      - 加拿大(绿头外网集团)(Public) 59
+      - 美国-高速节点购买：suo.yt/gvip（复制到浏览器打开）
+      - youtube:8度科技_英国 25
+      - 美国(绿头外网集团)(Public) 91
+      - youtube:8度科技_英国 24
+      - France 4 t.me/SurfShark_ALA_67
+      - youtube:8度科技_美国 23
+      - 加拿大(绿头外网集团)(Public) 55
+      - youtube:8度科技_加拿大
+      - 美国(绿头外网集团)(Public) 59
+      - 美国(绿头外网集团)(Public) 63
+      - youtube:8度科技_美国 20
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 28
+      - 加拿大(绿头外网集团)(Public) 22
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 36
+      - 加拿大(绿头外网集团)(Public) 57
+      - youtube:8度科技_加拿大 34
+      - 美国-高速节点购买：suo.yt/gvip（复制到浏览器打开） 8
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 39
+      - youtube:8度科技_美国 109
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 5
+      - youtube:8度科技_澳大利亚 16
+      - youtube:8度科技_加拿大 8
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 29
+      - 美国(绿头外网集团)(Public) 90
+      - 加拿大(绿头外网集团)(Public) 56
+      - youtube:8度科技_美国 53
+      - youtube:8度科技_美国 58
+      - youtube:8度科技_加拿大 42
+      - youtube:8度科技_美国 69
+      - youtube:8度科技_美国 92
+      - youtube:8度科技_美国 120
+      - youtube:8度科技_澳大利亚 4
+      - 加拿大(绿头外网集团)(Public) 7
+      - 加拿大(绿头外网集团)(Public) 27
+      - lv-移动优选v4
+      - youtube:8度科技_美国 61
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港绿头外网集团Public_445
-      - 香港绿头外网集团Public_412
-      - 香港绿头外网集团Public_414
-      - 香港绿头外网集团Public_415
-      - 香港绿头外网集团Public_411
-      - 香港绿头外网集团Public_433
-      - 台湾绿头外网集团Public_530
-      - 香港绿头外网集团Public_413
-      - 台湾绿头外网集团Public_534
-      - 台湾绿头外网集团Public_533
-      - 香港绿头外网集团Public_441
-      - 香港绿头外网集团Public_382
-      - 香港绿头外网集团Public_422
-      - 香港绿头外网集团Public_443
-      - 香港绿头外网集团Public_442
+      - 台湾(绿头外网集团)(Public) 3
+      - 香港(绿头外网集团)(Public) 4
+      - "[CT/CM]香港 07"
+      - "[CT/CM]香港 04"
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 香港绿头外网集团Public_445
-      - 香港绿头外网集团Public_412
-      - 香港绿头外网集团Public_414
-      - 香港绿头外网集团Public_415
-      - 香港绿头外网集团Public_411
-      - 印度绿头外网集团Public_449
-      - 日本绿头外网集团Public_476
-      - 香港绿头外网集团Public_433
-      - 台湾绿头外网集团Public_530
-      - 美国绿头外网集团Public_691
-      - 香港绿头外网集团Public_413
-      - 美国绿头外网集团Public_690
-      - 美国绿头外网集团Public_693
-      - 美国绿头外网集团Public_692
-      - 台湾绿头外网集团Public_534
-      - 美国绿头外网集团Public_689
-      - 台湾绿头外网集团Public_533
-      - 俄罗斯绿头外网集团Public_506
-      - 香港绿头外网集团Public_441
-      - 美国绿头外网集团Public_670
-      - 香港绿头外网集团Public_382
-      - 新加坡绿头外网集团Public_521
-      - 美国绿头外网集团Public_830
-      - 香港绿头外网集团Public_422
-      - 美国_阿伟科技-油管
-      - 俄罗斯绿头外网集团Public_508
-      - 美国_阿伟科技-油管 2
-      - 俄罗斯绿头外网集团Public_509
-      - 俄罗斯绿头外网集团Public_507
-      - 美国绿头外网集团Public_732
-      - 美国绿头外网集团Public_758
-      - 美国绿头外网集团Public_820
-      - 加拿大绿头外网集团Public_250
-      - 英国绿头外网集团Public_355
-      - 美国绿头外网集团Public_809
-      - 加拿大绿头外网集团Public_142
-      - 美国绿头外网集团Public_814
-      - 美国_阿伟科技-油管 3
-      - 加拿大绿头外网集团Public_160
-      - 加拿大绿头外网集团Public_141
-      - 日本绿头外网集团Public_459
-      - 美国_阿伟科技-油管 4
-      - 美国绿头外网集团Public_671
-      - 加拿大绿头外网集团Public_236
-      - 加拿大绿头外网集团Public_13
-      - 美国绿头外网集团Public_800
-      - 美国_阿伟科技-油管 5
-      - 美国_阿伟科技-油管 6
-      - 英国绿头外网集团Public_342
-      - 日本绿头外网集团Public_469
-      - 香港绿头外网集团Public_443
-      - 日本绿头外网集团Public_472
-      - 美国绿头外网集团Public_675
-      - 美国绿头外网集团Public_765
-      - 美国绿头外网集团Public_797
-      - 英国绿头外网集团Public_349
-      - 德国绿头外网集团Public_281
-      - 加拿大绿头外网集团Public_131
-      - 美国绿头外网集团Public_795
-      - 加拿大绿头外网集团Public_29
-      - 德国绿头外网集团Public_296
-      - 美国绿头外网集团Public_627
-      - 加拿大绿头外网集团Public_129
-      - 德国绿头外网集团Public_298
-      - 美国_阿伟科技-油管 7
-      - 日本绿头外网集团Public_461
-      - 美国绿头外网集团Public_718
-      - 美国绿头外网集团Public_555
-      - 加拿大绿头外网集团Public_245
-      - 加拿大绿头外网集团Public_20
-      - 美国绿头外网集团Public_607
-      - 美国绿头外网集团Public_747
-      - 美国绿头外网集团Public_634
-      - 美国绿头外网集团Public_659
-      - 美国绿头外网集团Public_858
-      - 美国绿头外网集团Public_579
-      - 美国绿头外网集团Public_728
-      - 美国绿头外网集团Public_784
-      - 加拿大绿头外网集团Public_271
-      - 美国绿头外网集团Public_672
-      - 【426节点池】US_1433
-      - 美国绿头外网集团Public_836
-      - 美国_阿伟科技-油管 8
-      - 加拿大绿头外网集团Public_228
-      - 美国_阿伟科技-油管 9
-      - 加拿大绿头外网集团Public_16
-      - 美国绿头外网集团Public_819
-      - 英国绿头外网集团Public_350
-      - 英国绿头外网集团Public_358
-      - 美国绿头外网集团Public_608
-      - 美国绿头外网集团Public_807
-      - 【426节点池】US_1500
-      - 美国绿头外网集团Public_730
-      - 美国绿头外网集团Public_721
-      - 美国绿头外网集团Public_731
-      - 美国绿头外网集团Public_799
-      - 美国绿头外网集团Public_860
-      - 美国_阿伟科技-油管 10
-      - 加拿大绿头外网集团Public_103
-      - 新加坡绿头外网集团Public_520
-      - 美国_阿伟科技-油管 11
-      - 德国绿头外网集团Public_295
-      - _US_美国 102
-      - 加拿大绿头外网集团Public_132
-      - 加拿大绿头外网集团Public_79
-      - 加拿大绿头外网集团Public_135
-      - 加拿大绿头外网集团Public_214
-      - 美国绿头外网集团Public_541
-      - 美国绿头外网集团Public_837
-      - 美国绿头外网集团Public_854
-      - 加拿大绿头外网集团Public_80
-      - 美国绿头外网集团Public_756
-      - 美国绿头外网集团Public_816
-      - 美国绿头外网集团Public_626
-      - _US_美国 12
-      - 加拿大绿头外网集团Public_173
-      - 英国绿头外网集团Public_369
-      - 美国绿头外网集团Public_865
-      - _US_美国 161
-      - 美国绿头外网集团Public_569
-      - 加拿大绿头外网集团Public_138
-      - 美国绿头外网集团Public_810
-      - 美国绿头外网集团Public_602
-      - 加拿大绿头外网集团Public_193
-      - 香港绿头外网集团Public_442
-      - 美国绿头外网集团Public_598
-      - 美国绿头外网集团Public_767
-      - 美国绿头外网集团Public_840
-      - 加拿大绿头外网集团Public_31
-      - 日本绿头外网集团Public_460
-      - 美国绿头外网集团Public_553
-      - 加拿大绿头外网集团Public_183
-      - 加拿大绿头外网集团Public_184
-      - 美国绿头外网集团Public_787
-      - 加拿大绿头外网集团Public_72
-      - 加拿大绿头外网集团Public_162
-      - 加拿大绿头外网集团Public_264
-      - 美国绿头外网集团Public_557
-      - 加拿大绿头外网集团Public_94
-      - 美国绿头外网集团Public_821
-      - 美国_阿伟科技-油管 12
-      - 加拿大绿头外网集团Public_7
-      - 德国绿头外网集团Public_299
-      - 美国绿头外网集团Public_872
-      - 美国绿头外网集团Public_556
-      - 美国绿头外网集团Public_625
-      - 美国绿头外网集团Public_835
-      - 美国绿头外网集团Public_852
-      - 加拿大绿头外网集团Public_237
-      - 美国绿头外网集团Public_612
-      - 美国绿头外网集团Public_794
-      - 美国绿头外网集团Public_805
-      - 美国绿头外网集团Public_663
-      - 加拿大绿头外网集团Public_95
-      - 加拿大绿头外网集团Public_215
+      - 台湾(绿头外网集团)(Public) 3
+      - 香港(绿头外网集团)(Public) 4
+      - "[CT/CM]香港 07"
+      - 美国(绿头外网集团)(Public) 95
+      - 美国(绿头外网集团)(Public) 94
+      - 美国(绿头外网集团)(Public) 93
+      - 美国(绿头外网集团)(Public) 86
+      - 美国(绿头外网集团)(Public) 61
+      - 美国(绿头外网集团)(Public) 76
+      - 美国 优化-2
+      - 美国(绿头外网集团)(Public) 70
+      - 美国 优化-1
+      - 美国(绿头外网集团)(Public) 72
+      - 美国(绿头外网集团)(Public) 79
+      - 美国(绿头外网集团)(Public) 97
+      - youtube:8度科技_美国 121
+      - 美国(绿头外网集团)(Public) 78
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 22
+      - youtube:8度科技_美国 118
+      - 美国(绿头外网集团)(Public) 81
+      - 美国(绿头外网集团)(Public) 80
+      - 加拿大(绿头外网集团)(Public) 64
+      - 美国(绿头外网集团)(Public) 73
+      - 美国(绿头外网集团)(Public) 74
+      - 加拿大(绿头外网集团)(Public) 66
+      - 美国(绿头外网集团)(Public) 69
+      - youtube:8度科技_美国 62
+      - 美国(绿头外网集团)(Public) 60
+      - 美国(绿头外网集团)(Public) 77
+      - "[CT/CM]香港 04"
+      - youtube:8度科技_美国 71
+      - 美国(绿头外网集团)(Public) 83
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 15
+      - 美国(绿头外网集团)(Public) 68
+      - youtube:8度科技_美国 72
+      - 加拿大(绿头外网集团)(Public) 18
+      - youtube:8度科技_美国 31
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 11
+      - 美国(绿头外网集团)(Public) 66
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 13
+      - 美国(绿头外网集团)(Public) 65
+      - youtube:8度科技_加拿大 23
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 27
+      - 加拿大(绿头外网集团)(Public) 65
+      - 美国(绿头外网集团)(Public) 53
+      - youtube:8度科技_美国 105
+      - youtube:8度科技_澳大利亚 14
+      - youtube:8度科技_布维岛 3
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 25
+      - 【小库订阅】US_2469
+      - youtube:8度科技_美国 51
+      - youtube:8度科技_美国 22
+      - youtube:8度科技_加拿大 44
+      - 德国(绿头外网集团)(Public) 2
+      - youtube:8度科技_加拿大 25
+      - youtube:8度科技_美国 14
+      - 美国-高速节点购买：suo.yt/gvip（复制到浏览器打开） 4
+      - 加拿大(绿头外网集团)(Public) 60
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 14
+      - 加拿大(绿头外网集团)(Public) 23
+      - 加拿大(绿头外网集团)(Public) 59
+      - 美国-高速节点购买：suo.yt/gvip（复制到浏览器打开）
+      - youtube:8度科技_英国 25
+      - 美国(绿头外网集团)(Public) 91
+      - youtube:8度科技_英国 24
+      - France 4 t.me/SurfShark_ALA_67
+      - youtube:8度科技_美国 23
+      - 加拿大(绿头外网集团)(Public) 55
+      - youtube:8度科技_加拿大
+      - 美国(绿头外网集团)(Public) 59
+      - 美国(绿头外网集团)(Public) 63
+      - youtube:8度科技_美国 20
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 28
+      - 加拿大(绿头外网集团)(Public) 22
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 36
+      - 加拿大(绿头外网集团)(Public) 57
+      - youtube:8度科技_加拿大 34
+      - 美国-高速节点购买：suo.yt/gvip（复制到浏览器打开） 8
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 39
+      - youtube:8度科技_美国 109
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 5
+      - youtube:8度科技_澳大利亚 16
+      - youtube:8度科技_加拿大 8
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 29
+      - 美国(绿头外网集团)(Public) 90
+      - 加拿大(绿头外网集团)(Public) 56
+      - youtube:8度科技_美国 53
+      - youtube:8度科技_美国 58
+      - youtube:8度科技_加拿大 42
+      - youtube:8度科技_美国 69
+      - youtube:8度科技_美国 92
+      - youtube:8度科技_美国 120
+      - youtube:8度科技_澳大利亚 4
+      - 加拿大(绿头外网集团)(Public) 7
+      - 加拿大(绿头外网集团)(Public) 27
+      - lv-移动优选v4
+      - youtube:8度科技_美国 61
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 香港绿头外网集团Public_445
-      - 香港绿头外网集团Public_412
-      - 香港绿头外网集团Public_414
-      - 香港绿头外网集团Public_415
-      - 香港绿头外网集团Public_411
-      - 印度绿头外网集团Public_449
-      - 日本绿头外网集团Public_476
-      - 香港绿头外网集团Public_433
-      - 台湾绿头外网集团Public_530
-      - 美国绿头外网集团Public_691
-      - 香港绿头外网集团Public_413
-      - 美国绿头外网集团Public_690
-      - 美国绿头外网集团Public_693
-      - 美国绿头外网集团Public_692
-      - 台湾绿头外网集团Public_534
-      - 美国绿头外网集团Public_689
-      - 台湾绿头外网集团Public_533
-      - 俄罗斯绿头外网集团Public_506
-      - 香港绿头外网集团Public_441
-      - 美国绿头外网集团Public_670
-      - 香港绿头外网集团Public_382
-      - 新加坡绿头外网集团Public_521
-      - 美国绿头外网集团Public_830
-      - 香港绿头外网集团Public_422
-      - 美国_阿伟科技-油管
-      - 俄罗斯绿头外网集团Public_508
-      - 美国_阿伟科技-油管 2
-      - 俄罗斯绿头外网集团Public_509
-      - 俄罗斯绿头外网集团Public_507
-      - 美国绿头外网集团Public_732
-      - 美国绿头外网集团Public_758
-      - 美国绿头外网集团Public_820
-      - 加拿大绿头外网集团Public_250
-      - 英国绿头外网集团Public_355
-      - 美国绿头外网集团Public_809
-      - 加拿大绿头外网集团Public_142
-      - 美国绿头外网集团Public_814
-      - 美国_阿伟科技-油管 3
-      - 加拿大绿头外网集团Public_160
-      - 加拿大绿头外网集团Public_141
-      - 日本绿头外网集团Public_459
-      - 美国_阿伟科技-油管 4
-      - 美国绿头外网集团Public_671
-      - 加拿大绿头外网集团Public_236
-      - 加拿大绿头外网集团Public_13
-      - 美国绿头外网集团Public_800
-      - 美国_阿伟科技-油管 5
-      - 美国_阿伟科技-油管 6
-      - 英国绿头外网集团Public_342
-      - 日本绿头外网集团Public_469
-      - 香港绿头外网集团Public_443
-      - 日本绿头外网集团Public_472
-      - 美国绿头外网集团Public_675
-      - 美国绿头外网集团Public_765
-      - 美国绿头外网集团Public_797
-      - 英国绿头外网集团Public_349
-      - 德国绿头外网集团Public_281
-      - 加拿大绿头外网集团Public_131
-      - 美国绿头外网集团Public_795
-      - 加拿大绿头外网集团Public_29
-      - 德国绿头外网集团Public_296
-      - 美国绿头外网集团Public_627
-      - 加拿大绿头外网集团Public_129
-      - 德国绿头外网集团Public_298
-      - 美国_阿伟科技-油管 7
-      - 日本绿头外网集团Public_461
-      - 美国绿头外网集团Public_718
-      - 美国绿头外网集团Public_555
-      - 加拿大绿头外网集团Public_245
-      - 加拿大绿头外网集团Public_20
-      - 美国绿头外网集团Public_607
-      - 美国绿头外网集团Public_747
-      - 美国绿头外网集团Public_634
-      - 美国绿头外网集团Public_659
-      - 美国绿头外网集团Public_858
-      - 美国绿头外网集团Public_579
-      - 美国绿头外网集团Public_728
-      - 美国绿头外网集团Public_784
-      - 加拿大绿头外网集团Public_271
-      - 美国绿头外网集团Public_672
-      - 【426节点池】US_1433
-      - 美国绿头外网集团Public_836
-      - 美国_阿伟科技-油管 8
-      - 加拿大绿头外网集团Public_228
-      - 美国_阿伟科技-油管 9
-      - 加拿大绿头外网集团Public_16
-      - 美国绿头外网集团Public_819
-      - 英国绿头外网集团Public_350
-      - 英国绿头外网集团Public_358
-      - 美国绿头外网集团Public_608
-      - 美国绿头外网集团Public_807
-      - 【426节点池】US_1500
-      - 美国绿头外网集团Public_730
-      - 美国绿头外网集团Public_721
-      - 美国绿头外网集团Public_731
-      - 美国绿头外网集团Public_799
-      - 美国绿头外网集团Public_860
-      - 美国_阿伟科技-油管 10
-      - 加拿大绿头外网集团Public_103
-      - 新加坡绿头外网集团Public_520
-      - 美国_阿伟科技-油管 11
-      - 德国绿头外网集团Public_295
-      - _US_美国 102
-      - 加拿大绿头外网集团Public_132
-      - 加拿大绿头外网集团Public_79
-      - 加拿大绿头外网集团Public_135
-      - 加拿大绿头外网集团Public_214
-      - 美国绿头外网集团Public_541
-      - 美国绿头外网集团Public_837
-      - 美国绿头外网集团Public_854
-      - 加拿大绿头外网集团Public_80
-      - 美国绿头外网集团Public_756
-      - 美国绿头外网集团Public_816
-      - 美国绿头外网集团Public_626
-      - _US_美国 12
-      - 加拿大绿头外网集团Public_173
-      - 英国绿头外网集团Public_369
-      - 美国绿头外网集团Public_865
-      - _US_美国 161
-      - 美国绿头外网集团Public_569
-      - 加拿大绿头外网集团Public_138
-      - 美国绿头外网集团Public_810
-      - 美国绿头外网集团Public_602
-      - 加拿大绿头外网集团Public_193
-      - 香港绿头外网集团Public_442
-      - 美国绿头外网集团Public_598
-      - 美国绿头外网集团Public_767
-      - 美国绿头外网集团Public_840
-      - 加拿大绿头外网集团Public_31
-      - 日本绿头外网集团Public_460
-      - 美国绿头外网集团Public_553
-      - 加拿大绿头外网集团Public_183
-      - 加拿大绿头外网集团Public_184
-      - 美国绿头外网集团Public_787
-      - 加拿大绿头外网集团Public_72
-      - 加拿大绿头外网集团Public_162
-      - 加拿大绿头外网集团Public_264
-      - 美国绿头外网集团Public_557
-      - 加拿大绿头外网集团Public_94
-      - 美国绿头外网集团Public_821
-      - 美国_阿伟科技-油管 12
-      - 加拿大绿头外网集团Public_7
-      - 德国绿头外网集团Public_299
-      - 美国绿头外网集团Public_872
-      - 美国绿头外网集团Public_556
-      - 美国绿头外网集团Public_625
-      - 美国绿头外网集团Public_835
-      - 美国绿头外网集团Public_852
-      - 加拿大绿头外网集团Public_237
-      - 美国绿头外网集团Public_612
-      - 美国绿头外网集团Public_794
-      - 美国绿头外网集团Public_805
-      - 美国绿头外网集团Public_663
-      - 加拿大绿头外网集团Public_95
-      - 加拿大绿头外网集团Public_215
+      - 台湾(绿头外网集团)(Public) 3
+      - 香港(绿头外网集团)(Public) 4
+      - "[CT/CM]香港 07"
+      - 美国(绿头外网集团)(Public) 95
+      - 美国(绿头外网集团)(Public) 94
+      - 美国(绿头外网集团)(Public) 93
+      - 美国(绿头外网集团)(Public) 86
+      - 美国(绿头外网集团)(Public) 61
+      - 美国(绿头外网集团)(Public) 76
+      - 美国 优化-2
+      - 美国(绿头外网集团)(Public) 70
+      - 美国 优化-1
+      - 美国(绿头外网集团)(Public) 72
+      - 美国(绿头外网集团)(Public) 79
+      - 美国(绿头外网集团)(Public) 97
+      - youtube:8度科技_美国 121
+      - 美国(绿头外网集团)(Public) 78
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 22
+      - youtube:8度科技_美国 118
+      - 美国(绿头外网集团)(Public) 81
+      - 美国(绿头外网集团)(Public) 80
+      - 加拿大(绿头外网集团)(Public) 64
+      - 美国(绿头外网集团)(Public) 73
+      - 美国(绿头外网集团)(Public) 74
+      - 加拿大(绿头外网集团)(Public) 66
+      - 美国(绿头外网集团)(Public) 69
+      - youtube:8度科技_美国 62
+      - 美国(绿头外网集团)(Public) 60
+      - 美国(绿头外网集团)(Public) 77
+      - "[CT/CM]香港 04"
+      - youtube:8度科技_美国 71
+      - 美国(绿头外网集团)(Public) 83
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 15
+      - 美国(绿头外网集团)(Public) 68
+      - youtube:8度科技_美国 72
+      - 加拿大(绿头外网集团)(Public) 18
+      - youtube:8度科技_美国 31
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 11
+      - 美国(绿头外网集团)(Public) 66
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 13
+      - 美国(绿头外网集团)(Public) 65
+      - youtube:8度科技_加拿大 23
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 27
+      - 加拿大(绿头外网集团)(Public) 65
+      - 美国(绿头外网集团)(Public) 53
+      - youtube:8度科技_美国 105
+      - youtube:8度科技_澳大利亚 14
+      - youtube:8度科技_布维岛 3
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 25
+      - 【小库订阅】US_2469
+      - youtube:8度科技_美国 51
+      - youtube:8度科技_美国 22
+      - youtube:8度科技_加拿大 44
+      - 德国(绿头外网集团)(Public) 2
+      - youtube:8度科技_加拿大 25
+      - youtube:8度科技_美国 14
+      - 美国-高速节点购买：suo.yt/gvip（复制到浏览器打开） 4
+      - 加拿大(绿头外网集团)(Public) 60
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 14
+      - 加拿大(绿头外网集团)(Public) 23
+      - 加拿大(绿头外网集团)(Public) 59
+      - 美国-高速节点购买：suo.yt/gvip（复制到浏览器打开）
+      - youtube:8度科技_英国 25
+      - 美国(绿头外网集团)(Public) 91
+      - youtube:8度科技_英国 24
+      - France 4 t.me/SurfShark_ALA_67
+      - youtube:8度科技_美国 23
+      - 加拿大(绿头外网集团)(Public) 55
+      - youtube:8度科技_加拿大
+      - 美国(绿头外网集团)(Public) 59
+      - 美国(绿头外网集团)(Public) 63
+      - youtube:8度科技_美国 20
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 28
+      - 加拿大(绿头外网集团)(Public) 22
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 36
+      - 加拿大(绿头外网集团)(Public) 57
+      - youtube:8度科技_加拿大 34
+      - 美国-高速节点购买：suo.yt/gvip（复制到浏览器打开） 8
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 39
+      - youtube:8度科技_美国 109
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 5
+      - youtube:8度科技_澳大利亚 16
+      - youtube:8度科技_加拿大 8
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 29
+      - 美国(绿头外网集团)(Public) 90
+      - 加拿大(绿头外网集团)(Public) 56
+      - youtube:8度科技_美国 53
+      - youtube:8度科技_美国 58
+      - youtube:8度科技_加拿大 42
+      - youtube:8度科技_美国 69
+      - youtube:8度科技_美国 92
+      - youtube:8度科技_美国 120
+      - youtube:8度科技_澳大利亚 4
+      - 加拿大(绿头外网集团)(Public) 7
+      - 加拿大(绿头外网集团)(Public) 27
+      - lv-移动优选v4
+      - youtube:8度科技_美国 61
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港绿头外网集团Public_445
-      - 香港绿头外网集团Public_412
-      - 香港绿头外网集团Public_414
-      - 香港绿头外网集团Public_415
-      - 香港绿头外网集团Public_411
-      - 印度绿头外网集团Public_449
-      - 日本绿头外网集团Public_476
-      - 香港绿头外网集团Public_433
-      - 台湾绿头外网集团Public_530
-      - 美国绿头外网集团Public_691
-      - 香港绿头外网集团Public_413
-      - 美国绿头外网集团Public_690
-      - 美国绿头外网集团Public_693
-      - 美国绿头外网集团Public_692
-      - 台湾绿头外网集团Public_534
-      - 美国绿头外网集团Public_689
-      - 台湾绿头外网集团Public_533
-      - 俄罗斯绿头外网集团Public_506
-      - 香港绿头外网集团Public_441
-      - 美国绿头外网集团Public_670
-      - 香港绿头外网集团Public_382
-      - 新加坡绿头外网集团Public_521
-      - 美国绿头外网集团Public_830
-      - 香港绿头外网集团Public_422
-      - 美国_阿伟科技-油管
-      - 俄罗斯绿头外网集团Public_508
-      - 美国_阿伟科技-油管 2
-      - 俄罗斯绿头外网集团Public_509
-      - 俄罗斯绿头外网集团Public_507
-      - 美国绿头外网集团Public_732
-      - 美国绿头外网集团Public_758
-      - 美国绿头外网集团Public_820
-      - 加拿大绿头外网集团Public_250
-      - 英国绿头外网集团Public_355
-      - 美国绿头外网集团Public_809
-      - 加拿大绿头外网集团Public_142
-      - 美国绿头外网集团Public_814
-      - 美国_阿伟科技-油管 3
-      - 加拿大绿头外网集团Public_160
-      - 加拿大绿头外网集团Public_141
-      - 日本绿头外网集团Public_459
-      - 美国_阿伟科技-油管 4
-      - 美国绿头外网集团Public_671
-      - 加拿大绿头外网集团Public_236
-      - 加拿大绿头外网集团Public_13
-      - 美国绿头外网集团Public_800
-      - 美国_阿伟科技-油管 5
-      - 美国_阿伟科技-油管 6
-      - 英国绿头外网集团Public_342
-      - 日本绿头外网集团Public_469
-      - 香港绿头外网集团Public_443
-      - 日本绿头外网集团Public_472
-      - 美国绿头外网集团Public_675
-      - 美国绿头外网集团Public_765
-      - 美国绿头外网集团Public_797
-      - 英国绿头外网集团Public_349
-      - 德国绿头外网集团Public_281
-      - 加拿大绿头外网集团Public_131
-      - 美国绿头外网集团Public_795
-      - 加拿大绿头外网集团Public_29
-      - 德国绿头外网集团Public_296
-      - 美国绿头外网集团Public_627
-      - 加拿大绿头外网集团Public_129
-      - 德国绿头外网集团Public_298
-      - 美国_阿伟科技-油管 7
-      - 日本绿头外网集团Public_461
-      - 美国绿头外网集团Public_718
-      - 美国绿头外网集团Public_555
-      - 加拿大绿头外网集团Public_245
-      - 加拿大绿头外网集团Public_20
-      - 美国绿头外网集团Public_607
-      - 美国绿头外网集团Public_747
-      - 美国绿头外网集团Public_634
-      - 美国绿头外网集团Public_659
-      - 美国绿头外网集团Public_858
-      - 美国绿头外网集团Public_579
-      - 美国绿头外网集团Public_728
-      - 美国绿头外网集团Public_784
-      - 加拿大绿头外网集团Public_271
-      - 美国绿头外网集团Public_672
-      - 【426节点池】US_1433
-      - 美国绿头外网集团Public_836
-      - 美国_阿伟科技-油管 8
-      - 加拿大绿头外网集团Public_228
-      - 美国_阿伟科技-油管 9
-      - 加拿大绿头外网集团Public_16
-      - 美国绿头外网集团Public_819
-      - 英国绿头外网集团Public_350
-      - 英国绿头外网集团Public_358
-      - 美国绿头外网集团Public_608
-      - 美国绿头外网集团Public_807
-      - 【426节点池】US_1500
-      - 美国绿头外网集团Public_730
-      - 美国绿头外网集团Public_721
-      - 美国绿头外网集团Public_731
-      - 美国绿头外网集团Public_799
-      - 美国绿头外网集团Public_860
-      - 美国_阿伟科技-油管 10
-      - 加拿大绿头外网集团Public_103
-      - 新加坡绿头外网集团Public_520
-      - 美国_阿伟科技-油管 11
-      - 德国绿头外网集团Public_295
-      - _US_美国 102
-      - 加拿大绿头外网集团Public_132
-      - 加拿大绿头外网集团Public_79
-      - 加拿大绿头外网集团Public_135
-      - 加拿大绿头外网集团Public_214
-      - 美国绿头外网集团Public_541
-      - 美国绿头外网集团Public_837
-      - 美国绿头外网集团Public_854
-      - 加拿大绿头外网集团Public_80
-      - 美国绿头外网集团Public_756
-      - 美国绿头外网集团Public_816
-      - 美国绿头外网集团Public_626
-      - _US_美国 12
-      - 加拿大绿头外网集团Public_173
-      - 英国绿头外网集团Public_369
-      - 美国绿头外网集团Public_865
-      - _US_美国 161
-      - 美国绿头外网集团Public_569
-      - 加拿大绿头外网集团Public_138
-      - 美国绿头外网集团Public_810
-      - 美国绿头外网集团Public_602
-      - 加拿大绿头外网集团Public_193
-      - 香港绿头外网集团Public_442
-      - 美国绿头外网集团Public_598
-      - 美国绿头外网集团Public_767
-      - 美国绿头外网集团Public_840
-      - 加拿大绿头外网集团Public_31
-      - 日本绿头外网集团Public_460
-      - 美国绿头外网集团Public_553
-      - 加拿大绿头外网集团Public_183
-      - 加拿大绿头外网集团Public_184
-      - 美国绿头外网集团Public_787
-      - 加拿大绿头外网集团Public_72
-      - 加拿大绿头外网集团Public_162
-      - 加拿大绿头外网集团Public_264
-      - 美国绿头外网集团Public_557
-      - 加拿大绿头外网集团Public_94
-      - 美国绿头外网集团Public_821
-      - 美国_阿伟科技-油管 12
-      - 加拿大绿头外网集团Public_7
-      - 德国绿头外网集团Public_299
-      - 美国绿头外网集团Public_872
-      - 美国绿头外网集团Public_556
-      - 美国绿头外网集团Public_625
-      - 美国绿头外网集团Public_835
-      - 美国绿头外网集团Public_852
-      - 加拿大绿头外网集团Public_237
-      - 美国绿头外网集团Public_612
-      - 美国绿头外网集团Public_794
-      - 美国绿头外网集团Public_805
-      - 美国绿头外网集团Public_663
-      - 加拿大绿头外网集团Public_95
-      - 加拿大绿头外网集团Public_215
+      - 台湾(绿头外网集团)(Public) 3
+      - 香港(绿头外网集团)(Public) 4
+      - "[CT/CM]香港 07"
+      - 美国(绿头外网集团)(Public) 95
+      - 美国(绿头外网集团)(Public) 94
+      - 美国(绿头外网集团)(Public) 93
+      - 美国(绿头外网集团)(Public) 86
+      - 美国(绿头外网集团)(Public) 61
+      - 美国(绿头外网集团)(Public) 76
+      - 美国 优化-2
+      - 美国(绿头外网集团)(Public) 70
+      - 美国 优化-1
+      - 美国(绿头外网集团)(Public) 72
+      - 美国(绿头外网集团)(Public) 79
+      - 美国(绿头外网集团)(Public) 97
+      - youtube:8度科技_美国 121
+      - 美国(绿头外网集团)(Public) 78
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 22
+      - youtube:8度科技_美国 118
+      - 美国(绿头外网集团)(Public) 81
+      - 美国(绿头外网集团)(Public) 80
+      - 加拿大(绿头外网集团)(Public) 64
+      - 美国(绿头外网集团)(Public) 73
+      - 美国(绿头外网集团)(Public) 74
+      - 加拿大(绿头外网集团)(Public) 66
+      - 美国(绿头外网集团)(Public) 69
+      - youtube:8度科技_美国 62
+      - 美国(绿头外网集团)(Public) 60
+      - 美国(绿头外网集团)(Public) 77
+      - "[CT/CM]香港 04"
+      - youtube:8度科技_美国 71
+      - 美国(绿头外网集团)(Public) 83
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 15
+      - 美国(绿头外网集团)(Public) 68
+      - youtube:8度科技_美国 72
+      - 加拿大(绿头外网集团)(Public) 18
+      - youtube:8度科技_美国 31
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 11
+      - 美国(绿头外网集团)(Public) 66
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 13
+      - 美国(绿头外网集团)(Public) 65
+      - youtube:8度科技_加拿大 23
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 27
+      - 加拿大(绿头外网集团)(Public) 65
+      - 美国(绿头外网集团)(Public) 53
+      - youtube:8度科技_美国 105
+      - youtube:8度科技_澳大利亚 14
+      - youtube:8度科技_布维岛 3
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 25
+      - 【小库订阅】US_2469
+      - youtube:8度科技_美国 51
+      - youtube:8度科技_美国 22
+      - youtube:8度科技_加拿大 44
+      - 德国(绿头外网集团)(Public) 2
+      - youtube:8度科技_加拿大 25
+      - youtube:8度科技_美国 14
+      - 美国-高速节点购买：suo.yt/gvip（复制到浏览器打开） 4
+      - 加拿大(绿头外网集团)(Public) 60
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 14
+      - 加拿大(绿头外网集团)(Public) 23
+      - 加拿大(绿头外网集团)(Public) 59
+      - 美国-高速节点购买：suo.yt/gvip（复制到浏览器打开）
+      - youtube:8度科技_英国 25
+      - 美国(绿头外网集团)(Public) 91
+      - youtube:8度科技_英国 24
+      - France 4 t.me/SurfShark_ALA_67
+      - youtube:8度科技_美国 23
+      - 加拿大(绿头外网集团)(Public) 55
+      - youtube:8度科技_加拿大
+      - 美国(绿头外网集团)(Public) 59
+      - 美国(绿头外网集团)(Public) 63
+      - youtube:8度科技_美国 20
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 28
+      - 加拿大(绿头外网集团)(Public) 22
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 36
+      - 加拿大(绿头外网集团)(Public) 57
+      - youtube:8度科技_加拿大 34
+      - 美国-高速节点购买：suo.yt/gvip（复制到浏览器打开） 8
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 39
+      - youtube:8度科技_美国 109
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 5
+      - youtube:8度科技_澳大利亚 16
+      - youtube:8度科技_加拿大 8
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 29
+      - 美国(绿头外网集团)(Public) 90
+      - 加拿大(绿头外网集团)(Public) 56
+      - youtube:8度科技_美国 53
+      - youtube:8度科技_美国 58
+      - youtube:8度科技_加拿大 42
+      - youtube:8度科技_美国 69
+      - youtube:8度科技_美国 92
+      - youtube:8度科技_美国 120
+      - youtube:8度科技_澳大利亚 4
+      - 加拿大(绿头外网集团)(Public) 7
+      - 加拿大(绿头外网集团)(Public) 27
+      - lv-移动优选v4
+      - youtube:8度科技_美国 61
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1331,161 +856,103 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港绿头外网集团Public_445
-      - 香港绿头外网集团Public_412
-      - 香港绿头外网集团Public_414
-      - 香港绿头外网集团Public_415
-      - 香港绿头外网集团Public_411
-      - 印度绿头外网集团Public_449
-      - 日本绿头外网集团Public_476
-      - 香港绿头外网集团Public_433
-      - 台湾绿头外网集团Public_530
-      - 美国绿头外网集团Public_691
-      - 香港绿头外网集团Public_413
-      - 美国绿头外网集团Public_690
-      - 美国绿头外网集团Public_693
-      - 美国绿头外网集团Public_692
-      - 台湾绿头外网集团Public_534
-      - 美国绿头外网集团Public_689
-      - 台湾绿头外网集团Public_533
-      - 俄罗斯绿头外网集团Public_506
-      - 香港绿头外网集团Public_441
-      - 美国绿头外网集团Public_670
-      - 香港绿头外网集团Public_382
-      - 新加坡绿头外网集团Public_521
-      - 美国绿头外网集团Public_830
-      - 香港绿头外网集团Public_422
-      - 美国_阿伟科技-油管
-      - 俄罗斯绿头外网集团Public_508
-      - 美国_阿伟科技-油管 2
-      - 俄罗斯绿头外网集团Public_509
-      - 俄罗斯绿头外网集团Public_507
-      - 美国绿头外网集团Public_732
-      - 美国绿头外网集团Public_758
-      - 美国绿头外网集团Public_820
-      - 加拿大绿头外网集团Public_250
-      - 英国绿头外网集团Public_355
-      - 美国绿头外网集团Public_809
-      - 加拿大绿头外网集团Public_142
-      - 美国绿头外网集团Public_814
-      - 美国_阿伟科技-油管 3
-      - 加拿大绿头外网集团Public_160
-      - 加拿大绿头外网集团Public_141
-      - 日本绿头外网集团Public_459
-      - 美国_阿伟科技-油管 4
-      - 美国绿头外网集团Public_671
-      - 加拿大绿头外网集团Public_236
-      - 加拿大绿头外网集团Public_13
-      - 美国绿头外网集团Public_800
-      - 美国_阿伟科技-油管 5
-      - 美国_阿伟科技-油管 6
-      - 英国绿头外网集团Public_342
-      - 日本绿头外网集团Public_469
-      - 香港绿头外网集团Public_443
-      - 日本绿头外网集团Public_472
-      - 美国绿头外网集团Public_675
-      - 美国绿头外网集团Public_765
-      - 美国绿头外网集团Public_797
-      - 英国绿头外网集团Public_349
-      - 德国绿头外网集团Public_281
-      - 加拿大绿头外网集团Public_131
-      - 美国绿头外网集团Public_795
-      - 加拿大绿头外网集团Public_29
-      - 德国绿头外网集团Public_296
-      - 美国绿头外网集团Public_627
-      - 加拿大绿头外网集团Public_129
-      - 德国绿头外网集团Public_298
-      - 美国_阿伟科技-油管 7
-      - 日本绿头外网集团Public_461
-      - 美国绿头外网集团Public_718
-      - 美国绿头外网集团Public_555
-      - 加拿大绿头外网集团Public_245
-      - 加拿大绿头外网集团Public_20
-      - 美国绿头外网集团Public_607
-      - 美国绿头外网集团Public_747
-      - 美国绿头外网集团Public_634
-      - 美国绿头外网集团Public_659
-      - 美国绿头外网集团Public_858
-      - 美国绿头外网集团Public_579
-      - 美国绿头外网集团Public_728
-      - 美国绿头外网集团Public_784
-      - 加拿大绿头外网集团Public_271
-      - 美国绿头外网集团Public_672
-      - 【426节点池】US_1433
-      - 美国绿头外网集团Public_836
-      - 美国_阿伟科技-油管 8
-      - 加拿大绿头外网集团Public_228
-      - 美国_阿伟科技-油管 9
-      - 加拿大绿头外网集团Public_16
-      - 美国绿头外网集团Public_819
-      - 英国绿头外网集团Public_350
-      - 英国绿头外网集团Public_358
-      - 美国绿头外网集团Public_608
-      - 美国绿头外网集团Public_807
-      - 【426节点池】US_1500
-      - 美国绿头外网集团Public_730
-      - 美国绿头外网集团Public_721
-      - 美国绿头外网集团Public_731
-      - 美国绿头外网集团Public_799
-      - 美国绿头外网集团Public_860
-      - 美国_阿伟科技-油管 10
-      - 加拿大绿头外网集团Public_103
-      - 新加坡绿头外网集团Public_520
-      - 美国_阿伟科技-油管 11
-      - 德国绿头外网集团Public_295
-      - _US_美国 102
-      - 加拿大绿头外网集团Public_132
-      - 加拿大绿头外网集团Public_79
-      - 加拿大绿头外网集团Public_135
-      - 加拿大绿头外网集团Public_214
-      - 美国绿头外网集团Public_541
-      - 美国绿头外网集团Public_837
-      - 美国绿头外网集团Public_854
-      - 加拿大绿头外网集团Public_80
-      - 美国绿头外网集团Public_756
-      - 美国绿头外网集团Public_816
-      - 美国绿头外网集团Public_626
-      - _US_美国 12
-      - 加拿大绿头外网集团Public_173
-      - 英国绿头外网集团Public_369
-      - 美国绿头外网集团Public_865
-      - _US_美国 161
-      - 美国绿头外网集团Public_569
-      - 加拿大绿头外网集团Public_138
-      - 美国绿头外网集团Public_810
-      - 美国绿头外网集团Public_602
-      - 加拿大绿头外网集团Public_193
-      - 香港绿头外网集团Public_442
-      - 美国绿头外网集团Public_598
-      - 美国绿头外网集团Public_767
-      - 美国绿头外网集团Public_840
-      - 加拿大绿头外网集团Public_31
-      - 日本绿头外网集团Public_460
-      - 美国绿头外网集团Public_553
-      - 加拿大绿头外网集团Public_183
-      - 加拿大绿头外网集团Public_184
-      - 美国绿头外网集团Public_787
-      - 加拿大绿头外网集团Public_72
-      - 加拿大绿头外网集团Public_162
-      - 加拿大绿头外网集团Public_264
-      - 美国绿头外网集团Public_557
-      - 加拿大绿头外网集团Public_94
-      - 美国绿头外网集团Public_821
-      - 美国_阿伟科技-油管 12
-      - 加拿大绿头外网集团Public_7
-      - 德国绿头外网集团Public_299
-      - 美国绿头外网集团Public_872
-      - 美国绿头外网集团Public_556
-      - 美国绿头外网集团Public_625
-      - 美国绿头外网集团Public_835
-      - 美国绿头外网集团Public_852
-      - 加拿大绿头外网集团Public_237
-      - 美国绿头外网集团Public_612
-      - 美国绿头外网集团Public_794
-      - 美国绿头外网集团Public_805
-      - 美国绿头外网集团Public_663
-      - 加拿大绿头外网集团Public_95
-      - 加拿大绿头外网集团Public_215
+      - 台湾(绿头外网集团)(Public) 3
+      - 香港(绿头外网集团)(Public) 4
+      - "[CT/CM]香港 07"
+      - 美国(绿头外网集团)(Public) 95
+      - 美国(绿头外网集团)(Public) 94
+      - 美国(绿头外网集团)(Public) 93
+      - 美国(绿头外网集团)(Public) 86
+      - 美国(绿头外网集团)(Public) 61
+      - 美国(绿头外网集团)(Public) 76
+      - 美国 优化-2
+      - 美国(绿头外网集团)(Public) 70
+      - 美国 优化-1
+      - 美国(绿头外网集团)(Public) 72
+      - 美国(绿头外网集团)(Public) 79
+      - 美国(绿头外网集团)(Public) 97
+      - youtube:8度科技_美国 121
+      - 美国(绿头外网集团)(Public) 78
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 22
+      - youtube:8度科技_美国 118
+      - 美国(绿头外网集团)(Public) 81
+      - 美国(绿头外网集团)(Public) 80
+      - 加拿大(绿头外网集团)(Public) 64
+      - 美国(绿头外网集团)(Public) 73
+      - 美国(绿头外网集团)(Public) 74
+      - 加拿大(绿头外网集团)(Public) 66
+      - 美国(绿头外网集团)(Public) 69
+      - youtube:8度科技_美国 62
+      - 美国(绿头外网集团)(Public) 60
+      - 美国(绿头外网集团)(Public) 77
+      - "[CT/CM]香港 04"
+      - youtube:8度科技_美国 71
+      - 美国(绿头外网集团)(Public) 83
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 15
+      - 美国(绿头外网集团)(Public) 68
+      - youtube:8度科技_美国 72
+      - 加拿大(绿头外网集团)(Public) 18
+      - youtube:8度科技_美国 31
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 11
+      - 美国(绿头外网集团)(Public) 66
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 13
+      - 美国(绿头外网集团)(Public) 65
+      - youtube:8度科技_加拿大 23
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 27
+      - 加拿大(绿头外网集团)(Public) 65
+      - 美国(绿头外网集团)(Public) 53
+      - youtube:8度科技_美国 105
+      - youtube:8度科技_澳大利亚 14
+      - youtube:8度科技_布维岛 3
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 25
+      - 【小库订阅】US_2469
+      - youtube:8度科技_美国 51
+      - youtube:8度科技_美国 22
+      - youtube:8度科技_加拿大 44
+      - 德国(绿头外网集团)(Public) 2
+      - youtube:8度科技_加拿大 25
+      - youtube:8度科技_美国 14
+      - 美国-高速节点购买：suo.yt/gvip（复制到浏览器打开） 4
+      - 加拿大(绿头外网集团)(Public) 60
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 14
+      - 加拿大(绿头外网集团)(Public) 23
+      - 加拿大(绿头外网集团)(Public) 59
+      - 美国-高速节点购买：suo.yt/gvip（复制到浏览器打开）
+      - youtube:8度科技_英国 25
+      - 美国(绿头外网集团)(Public) 91
+      - youtube:8度科技_英国 24
+      - France 4 t.me/SurfShark_ALA_67
+      - youtube:8度科技_美国 23
+      - 加拿大(绿头外网集团)(Public) 55
+      - youtube:8度科技_加拿大
+      - 美国(绿头外网集团)(Public) 59
+      - 美国(绿头外网集团)(Public) 63
+      - youtube:8度科技_美国 20
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 28
+      - 加拿大(绿头外网集团)(Public) 22
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 36
+      - 加拿大(绿头外网集团)(Public) 57
+      - youtube:8度科技_加拿大 34
+      - 美国-高速节点购买：suo.yt/gvip（复制到浏览器打开） 8
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 39
+      - youtube:8度科技_美国 109
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 5
+      - youtube:8度科技_澳大利亚 16
+      - youtube:8度科技_加拿大 8
+      - 加拿大-高速节点购买：suo.yt/gvip（复制到浏览器打开） 29
+      - 美国(绿头外网集团)(Public) 90
+      - 加拿大(绿头外网集团)(Public) 56
+      - youtube:8度科技_美国 53
+      - youtube:8度科技_美国 58
+      - youtube:8度科技_加拿大 42
+      - youtube:8度科技_美国 69
+      - youtube:8度科技_美国 92
+      - youtube:8度科技_美国 120
+      - youtube:8度科技_澳大利亚 4
+      - 加拿大(绿头外网集团)(Public) 7
+      - 加拿大(绿头外网集团)(Public) 27
+      - lv-移动优选v4
+      - youtube:8度科技_美国 61
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
